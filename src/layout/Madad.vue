@@ -4,7 +4,7 @@ import HeaderMadad from '../components/Header-madad.vue'
 </script>
 <template>
   <HeaderMadad />
-  <div class="container">
+  <div class="container pt-5">
     <RouterView />
   </div>
 </template>
