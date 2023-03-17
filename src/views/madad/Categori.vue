@@ -10,7 +10,7 @@ import { data } from '../../constans/index.js'
       :key="item.id"
       :to="item.link"
     >
-      <div class="border text-center p-2 shadow-sm rounded">
+      <div class="border p-2 shadow-sm rounded d-flex align-items-center justify-content-center">
         <h3>{{ item.arab }}</h3>
       </div>
     </router-link>

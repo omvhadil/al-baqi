@@ -10,7 +10,7 @@ export const data = [
                 title: 'Dzikir Setelah Sholat Fardhu',
                 arab: 'ذِكْرٌ بَعْدَ صَلَاةِ الْفَرِيضَةِ',  
                 latin: 'Dzikir ba’da shalāti al-farīdāti',
-                link: '/fardhu',
+                link: '/madad/fardhu',
                 dzikri: [
                     {
                         id: 1,
@@ -74,7 +74,7 @@ export const data = [
                 title: 'Dzikir Setelah Sholat Subuh',
                 arab: 'ذِكْرً بَعْدَ صَلاَةِ الصُّبْحِ',
                 latin: 'Dzikir ba’da shalāti as-subhi',
-                link: '/subuh',
+                link: '/madad/subuh',
                 dzikri: [
                     {
                         id: 1,
@@ -142,28 +142,28 @@ export const data = [
                 title: 'Dzikir Setelah Sholat Dzuhur',
                 arab: 'ذِكْرً بَعْدَ صَلاَةِ الظُّهْرِ',
                 latin: 'Dzikir ba’da shalāti ad-dzuhri',
-                link: '/dzuhur',
+                link: '/madad/dzuhur',
             },
             {
                 id: 4,
                 title: 'Dzikir Setelah Sholat Ashar',
                 arab: 'ذِكْرً بَعْدَ صَلاَةِ العَصْرِ',
                 latin: 'Dzikir ba’da shalāti as-syuri',
-                link: '/ashar',
+                link: '/madad/ashar',
             },
             {
                 id: 5,
                 title: 'Dzikir Setelah Sholat Maghrib',
                 arab: 'ذِكْرً بَعْدَ صَلاَةِ المَغْرِبِ',
                 latin: 'Dzikir ba’da shalāti al-maghribi',
-                link: '/mahgrib',
+                link: '/madad/mahgrib',
             },
             {
                 id: 6,
                 title: 'Dzikir Setelah Sholat Isya’',
                 arab: 'ذِكْرً بَعْدَ صَلاَةِ العِشَاءِ',
                 latin: 'Dzikir ba’da shalāti al-isyā’i',
-                link: '/isya',
+                link: '/madad/isya',
             },
         ]
     }

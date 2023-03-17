@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-dark bg-success">
-    <div class="container">
+    <div class="container d-flex align-items-center">
       <div style="width: 35px; height: 35px">
         <img src="../assets/logo.png" alt="Khairiyah" />
       </div>

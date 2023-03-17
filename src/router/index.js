@@ -15,37 +15,37 @@ const router = createRouter({
       component: () => import('../layout/Madad.vue'),
       children: [
         {
-          path: '/madad',
+          path: '',
           name: 'madad-home',
           component: () => import('../views/madad/Categori.vue')
         },
         {
-          path: '/fardhu',
+          path: '/madad/fardhu',
           name: 'fardhu',
           component: () => import('../views/madad/Fardhu.vue')
         },
         {
-          path: '/subuh',
+          path: '/madad/subuh',
           name: 'subuh',
           component: () => import('../views/madad/Subuh.vue')
         },
         {
-          path: '/dzuhur',
+          path: '/madad/dzuhur',
           name: 'dzuhur',
           component: () => import('../views/madad/Dzuhur.vue')
         },
         {
-          path: '/ashar',
+          path: '/madad/ashar',
           name: 'ashar',
           component: () => import('../views/madad/Ashar.vue')
         },
         {
-          path: '/mahgrib',
+          path: '/madad/mahgrib',
           name: 'mahgrib',
           component: () => import('../views/madad/Maghrib.vue')
         },
         {
-          path: '/isya',
+          path: '/madad/isya',
           name: 'isya',
           component: () => import('../views/madad/Isya.vue')
         },
