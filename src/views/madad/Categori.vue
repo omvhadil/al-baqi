@@ -11,9 +11,9 @@ const router = useRouter()
       <div v-for="item in madad" :key="item.id" class="col-12">
         <div
           @click="router.push('/madad/' + item.slug)"
-          class="text-center border p-3 bg-secondary bg-opacity-25"
+          class="text-center border p-2 bg-secondary bg-opacity-25"
         >
-          <h5 class="m-0">{{ item.title }}</h5>
+          <h3 class="m-0">{{ item.arab }}</h3>
         </div>
       </div>
     </div>
