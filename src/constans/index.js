@@ -1,6 +1,7 @@
 export const madad = [
   {
     id: 1,
+    slug: 'fardhu',
     title: 'Dzikir Setelah Sholat Fardhu',
     arab: 'ذِكْرٌ بَعْدَ صَلَاةِ الْفَرِيضَةِ',
     latin: 'Dzikir ba’da shalāti al-farīdāti',
@@ -61,10 +62,12 @@ export const madad = [
           }
         ]
       }
+      
     ]
   },
   {
     id: 2,
+    slug: 'subuh',
     title: 'Dzikir Setelah Sholat Subuh',
     arab: 'ذِكْرً بَعْدَ صَلاَةِ الصُّبْحِ',
     latin: 'Dzikir ba’da shalāti as-subhi',
@@ -131,30 +134,270 @@ export const madad = [
   },
   {
     id: 3,
+    slug: 'dzuhur',
     title: 'Dzikir Setelah Sholat Dzuhur',
     arab: 'ذِكْرً بَعْدَ صَلاَةِ الظُّهْرِ',
     latin: 'Dzikir ba’da shalāti ad-dzuhri',
-    link: '/madad/dzuhur'
+    link: '/madad/dzuhur',
+    dzikri: [
+      {
+        id: 1,
+        arab: 'ذِكْرَ',
+        latin: 'Dzikra',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      },
+      {
+        id: 2,
+        arab: 'سُوْرَةُ يس',
+        latin: 'Surat Yasin',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      },
+      {
+        id: 3,
+        arab: 'سُوْرَةُ الْوَاقِعَةُ',
+        latin: 'Surat al-Wāqi’ah',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      }
+    ]
   },
   {
     id: 4,
+    slug: 'ashar',
     title: 'Dzikir Setelah Sholat Ashar',
     arab: 'ذِكْرً بَعْدَ صَلاَةِ العَصْرِ',
     latin: 'Dzikir ba’da shalāti as-syuri',
-    link: '/madad/ashar'
+    link: '/madad/ashar',
+    dzikri: [
+      {
+        id: 1,
+        arab: 'ذِكْرَ',
+        latin: 'Dzikra',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      },
+      {
+        id: 2,
+        arab: 'سُوْرَةُ يس',
+        latin: 'Surat Yasin',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      },
+      {
+        id: 3,
+        arab: 'سُوْرَةُ الْوَاقِعَةُ',
+        latin: 'Surat al-Wāqi’ah',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      }
+    ]
   },
   {
     id: 5,
+    slug: 'maghrib',
     title: 'Dzikir Setelah Sholat Maghrib',
     arab: 'ذِكْرً بَعْدَ صَلاَةِ المَغْرِبِ',
     latin: 'Dzikir ba’da shalāti al-maghribi',
-    link: '/madad/mahgrib'
+    link: '/madad/mahgrib',
+    dzikri: [
+      {
+        id: 1,
+        arab: 'ذِكْرَ',
+        latin: 'Dzikra',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      },
+      {
+        id: 2,
+        arab: 'سُوْرَةُ يس',
+        latin: 'Surat Yasin',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      },
+      {
+        id: 3,
+        arab: 'سُوْرَةُ الْوَاقِعَةُ',
+        latin: 'Surat al-Wāqi’ah',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      }
+    ]
   },
   {
     id: 6,
+    slug: 'isya',
     title: 'Dzikir Setelah Sholat Isya’',
     arab: 'ذِكْرً بَعْدَ صَلاَةِ العِشَاءِ',
     latin: 'Dzikir ba’da shalāti al-isyā’i',
-    link: '/madad/isya'
+    link: '/madad/isya',
+    dzikri: [
+      {
+        id: 1,
+        arab: 'ذِكْرَ',
+        latin: 'Dzikra',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      },
+      {
+        id: 2,
+        arab: 'سُوْرَةُ يس',
+        latin: 'Surat Yasin',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      },
+      {
+        id: 3,
+        arab: 'سُوْرَةُ الْوَاقِعَةُ',
+        latin: 'Surat al-Wāqi’ah',
+        bait_bait: [
+          {
+            id: 1,
+            arab: '',
+            latin: '',
+            arti: ''
+          },
+          {
+            id: 2,
+            arab: '',
+            latin: '',
+            arti: ''
+          }
+        ]
+      }
+    ]
   }
 ]
