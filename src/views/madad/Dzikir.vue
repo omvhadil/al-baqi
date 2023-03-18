@@ -15,7 +15,7 @@ const category = kitab.category.find((item) => item.slug === categoryId)
     <div class="text-center mb-3">
       <h4></h4>
       <div v-if="category?.slug == 'fardhu'">
-        <h4 class="m-0">Dzikir Setelah Sholat Fardhu</h4>
+        <h4 class="m-0">﴾ Dzikir Setelah Sholat Fardhu ﴿</h4>
         <h4 class="m-0">🍀 Khusus 🍀</h4>
         <span class="m-0">Al-Habib Umar Bin Muhammad BSA</span>
       </div>
