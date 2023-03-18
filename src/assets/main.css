@@ -1,14 +1,13 @@
 /* @import './base.css'; */
 @import url('https://fonts.googleapis.com/css2?family=Mirza&display=swap');
 body{
-    background-color: #000 !important;
+    background-color: #212529 !important;
     font-family: 'Mirza', cursive !important;
     font-size: 16px;
     color: #fff !important;
 }
 .container-app {
   background-color: #212529;
-  overflow: hidden;
   max-width: 450px;
   height: 100vh;
 }

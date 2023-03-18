@@ -22,7 +22,7 @@ console.log(category)
         <div v-for="item in category.dzikri" :key="item.id">
           <tr v-for="item in item?.bait_bait" :key="item.id">
             <td class="col-11 text-end">
-              <h2 class="m-0 text-white p-2">{{ item.arab }}</h2>
+              <h1 class="m-0 text-white p-2">{{ item.arab }}</h1>
             </td>
           </tr>
         </div>
