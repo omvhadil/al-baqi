@@ -9,7 +9,7 @@ const warning = () => {
 <template>
   <div class="bg-success bg-gradient p-5 rounded-bottom-5 border-bottom border-5">
     <div class="logo mx-auto" style="width: 100px; height: 100px">
-      <img src="../assets/logo.png" alt="" />
+      <img src="../../public/logo.png" alt="" />
     </div>
     <h3 class="text-center">AL-khairiyah</h3>
   </div>
