@@ -31,7 +31,7 @@ const category = madad.find((item) => item.slug === categoryId)
         <div v-for="item in category.dzikri" :key="item.id">
           <tr v-for="item in item?.bait_bait" :key="item.id">
             <td class="col-11 text-end" :class="item.arab ? 'border-bottom' : ''">
-              <h1 class="m-0 text-white p-2">{{ item.arab }}</h1>
+              <h1 class="m-0 text-white p-3">{{ item.arab }}</h1>
             </td>
           </tr>
         </div>

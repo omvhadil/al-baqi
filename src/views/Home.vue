@@ -26,7 +26,7 @@ const warning = () => {
             alt=""
           />
         </div>
-        <h5 class="mt-1">Khulasho</h5>
+        <h5 class="mt-1">Khulashoh</h5>
       </div>
       <div class="col-4 text-center">
         <div
