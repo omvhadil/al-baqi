@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
-import HeaderMadad from '../components/Header-madad.vue'
+import HeaderMadad from '../components/Header.vue'
 </script>
 <template>
   <HeaderMadad />
