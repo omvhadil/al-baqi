@@ -17,6 +17,7 @@ export const data = [
         dzikri: [
           {
             id: 1,
+            title: 'Dzikir',
             arab: 'ذِكْرَ',
             latin: 'Dzikra',
             bait_bait: [
@@ -83,6 +84,7 @@ export const data = [
         dzikri: [
           {
             id: 1,
+            title: 'Dzikir',
             arab: 'ذِكْرَ',
             latin: 'Dzikra',
             bait_bait: [
@@ -258,6 +260,7 @@ export const data = [
           },
           {
             id: 2,
+            title: 'Yasin',
             arab: 'سُوْرَةُ يس',
             latin: 'Surat Yasin',
             bait_bait: [
@@ -277,6 +280,7 @@ export const data = [
           },
           {
             id: 3,
+            title: 'waqiah',
             arab: 'سُوْرَةُ الْوَاقِعَةُ',
             latin: 'Surat al-Wāqi’ah',
             bait_bait: [
@@ -306,6 +310,7 @@ export const data = [
         dzikri: [
           {
             id: 1,
+            title: 'Dzikir',
             arab: 'ذِكْرَ',
             latin: 'Dzikra',
             bait_bait: [
@@ -400,44 +405,6 @@ export const data = [
                 arti: ''
               },
             ]
-          },
-          {
-            id: 2,
-            arab: 'سُوْرَةُ يس',
-            latin: 'Surat Yasin',
-            bait_bait: [
-              {
-                id: 1,
-                arab: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 2,
-                arab: '',
-                latin: '',
-                arti: ''
-              }
-            ]
-          },
-          {
-            id: 3,
-            arab: 'سُوْرَةُ الْوَاقِعَةُ',
-            latin: 'Surat al-Wāqi’ah',
-            bait_bait: [
-              {
-                id: 1,
-                arab: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 2,
-                arab: '',
-                latin: '',
-                arti: ''
-              }
-            ]
           }
         ]
       },
@@ -451,6 +418,7 @@ export const data = [
         dzikri: [
           {
             id: 1,
+            title: 'Dzikir',
             arab: 'ذِكْرَ',
             latin: 'Dzikra',
             bait_bait: [
@@ -608,25 +576,7 @@ export const data = [
           },
           {
             id: 2,
-            arab: 'سُوْرَةُ يس',
-            latin: 'Surat Yasin',
-            bait_bait: [
-              {
-                id: 1,
-                arab: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 2,
-                arab: '',
-                latin: '',
-                arti: ''
-              }
-            ]
-          },
-          {
-            id: 3,
+            title: 'Waqiah',
             arab: 'سُوْرَةُ الْوَاقِعَةُ',
             latin: 'Surat al-Wāqi’ah',
             bait_bait: [
@@ -656,6 +606,7 @@ export const data = [
         dzikri: [
           {
             id: 1,
+            title: 'Dzikir',
             arab: 'ذِكْرَ',
             latin: 'Dzikra',
             bait_bait: [
@@ -675,6 +626,7 @@ export const data = [
           },
           {
             id: 2,
+            title: 'Yasin',
             arab: 'سُوْرَةُ يس',
             latin: 'Surat Yasin',
             bait_bait: [
@@ -694,6 +646,7 @@ export const data = [
           },
           {
             id: 3,
+            title: 'Sakran',
             arab: 'سُوْرَةُ الْوَاقِعَةُ',
             latin: 'Surat al-Wāqi’ah',
             bait_bait: [
@@ -723,6 +676,7 @@ export const data = [
         dzikri: [
           {
             id: 1,
+            title: 'Dzikir',
             arab: 'ذِكْرَ',
             latin: 'Dzikra',
             bait_bait: [
@@ -742,27 +696,9 @@ export const data = [
           },
           {
             id: 2,
+            title: 'Al-Mulk',
             arab: 'سُوْرَةُ يس',
             latin: 'Surat Yasin',
-            bait_bait: [
-              {
-                id: 1,
-                arab: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 2,
-                arab: '',
-                latin: '',
-                arti: ''
-              }
-            ]
-          },
-          {
-            id: 3,
-            arab: 'سُوْرَةُ الْوَاقِعَةُ',
-            latin: 'Surat al-Wāqi’ah',
             bait_bait: [
               {
                 id: 1,

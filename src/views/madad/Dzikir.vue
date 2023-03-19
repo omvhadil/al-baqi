@@ -8,12 +8,19 @@ const kitabId = useRoute().params.kitab
 const categoryId = useRoute().params.category
 const kitab = data.find((item) => item.slug === kitabId)
 const category = kitab.category.find((item) => item.slug === categoryId)
+console.log(category)
 </script>
 <template>
   <Header :title="kitab.arab" />
   <div class="d-flex bg-success p-3 gap-2 position-fixed w-100 start-0">
-    <button class="btn btn-success border w-100" type="button">Yasin</button>
-    <button class="btn btn-success w-100" type="button">Waqiah</button>
+    <button
+      v-for="item in category?.dzikri"
+      :key="item.id"
+      class="btn btn-success border w-100"
+      type="button"
+    >
+      {{ item.title }}
+    </button>
   </div>
   <div class="container mt-5 pt-5">
     <div class="pt-3">
