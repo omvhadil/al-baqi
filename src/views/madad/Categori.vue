@@ -12,12 +12,13 @@ const kitab = data.find((item) => item.slug === kitabId)
   <Header :title="kitab.arab" />
   <div class="container mt-5 pt-5">
     <div class="row row-gap-3">
-      <div v-for="item in kitab.category" :key="item.id" class="col-12">
+      <div v-for="(item, index) in kitab.category" :key="item.id" class="col-12">
         <div
           @click="router.push('/' + kitabId + '/' + item.slug)"
-          class="text-center border p-2 bg-secondary bg-opacity-25"
+          class="text-center border p-2 bg-secondary bg-opacity-25 d-flex justify-content-start"
         >
-          <h3 class="m-0">{{ item.title }}</h3>
+          <p class="m-0 me-3">{{ index + 1 }}</p>
+          <p class="m-0">{{ item.title }}</p>
         </div>
       </div>
     </div>
