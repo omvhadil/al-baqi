@@ -23,7 +23,7 @@ console.log(category)
     </button>
   </div>
   <div class="container mt-5 pt-5">
-    <div class="pt-3">
+    <div class="pt-4">
       <div class="text-center mb-3">
         <h4></h4>
         <div v-if="category?.slug == 'fardhu'">
