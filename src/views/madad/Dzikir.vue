@@ -3,12 +3,19 @@
 import { data } from '../../constans/index.js'
 import { useRoute } from 'vue-router'
 import Header from '../../components/Header.vue'
+import { ref, computed } from 'vue'
+
+const categoryNumber = ref(0)
 
 const kitabId = useRoute().params.kitab
 const categoryId = useRoute().params.category
 const kitab = data.find((item) => item.slug === kitabId)
 const category = kitab.category.find((item) => item.slug === categoryId)
-console.log(category)
+const dzikri = category.dzikri
+
+const tampilCategory = computed(() => dzikri[categoryNumber.value])
+console.log(categoryNumber.value)
+console.log(tampilCategory)
 </script>
 <template>
   <Header :title="kitab.arab" />
@@ -16,6 +23,7 @@ console.log(category)
     <button
       v-for="item in category?.dzikri"
       :key="item.id"
+      @click="categoryNumber = item.id - 1"
       class="btn btn-success border w-100"
       type="button"
     >
@@ -60,13 +68,11 @@ console.log(category)
       </div>
       <table class="table">
         <tbody>
-          <div v-for="item in category?.dzikri" :key="item.id">
-            <tr v-for="item in item?.bait_bait" :key="item.id">
-              <td class="col-11 text-end" :class="item.arab ? 'border-bottom' : ''">
-                <h1 class="m-0 text-white py-3">{{ item.arab }}</h1>
-              </td>
-            </tr>
-          </div>
+          <tr v-for="item in tampilCategory?.bait_bait" :key="item.id">
+            <td class="col-11 text-end" :class="item.arab ? 'border-bottom' : ''">
+              <h1 class="m-0 text-white py-3">{{ item.arab }}</h1>
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>

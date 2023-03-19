@@ -266,7 +266,7 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: '',
+                arab: 'yasin',
                 latin: '',
                 arti: ''
               },
@@ -286,7 +286,7 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: '',
+                arab: 'Waqiah',
                 latin: '',
                 arti: ''
               },
