@@ -14,8 +14,6 @@ const category = kitab.category.find((item) => item.slug === categoryId)
 const dzikri = category.dzikri
 
 const tampilCategory = computed(() => dzikri[categoryNumber.value])
-console.log(categoryNumber.value)
-console.log(tampilCategory)
 </script>
 <template>
   <Header :title="kitab.arab" />
@@ -33,38 +31,11 @@ console.log(tampilCategory)
   <div class="container mt-5 pt-5">
     <div class="pt-4">
       <div class="text-center mb-3">
-        <h4></h4>
-        <div v-if="category?.slug == 'fardhu'">
-          <h4 class="m-0">﴾ Dzikir Setelah Sholat Fardhu ﴿</h4>
-          <h4 class="m-0">🍀 Khusus 🍀</h4>
-          <span class="m-0">Al-Habib Umar Bin Muhammad BSA</span>
+        <div>
+          <h4 class="m-0">﴾ {{ category.title }} ﴿</h4>
+          <h4 class="m-0">🍀 {{ tampilCategory?.name }} 🍀</h4>
+          <span class="m-0">{{ tampilCategory?.subName }}</span>
         </div>
-        <div v-if="category?.slug == 'subuh'">
-          <h4 class="m-0">Dzikir Setelah Sholat Subuh</h4>
-          <h4 class="m-0">🍀 Wirdul Lathif 🍀</h4>
-          <span class="m-0">Al-Imam Abdullah Bin Alwi Al-Haddad</span>
-        </div>
-        <div v-if="category?.slug == 'dzuhur'">
-          <h4 class="m-0">Dzikir Setelah Sholat Dzuhur</h4>
-          <h4 class="m-0">🍀 Hizbun Nashar 🍀</h4>
-          <span class="m-0">Al-Imam Abdullah Bin Alwi Al-Haddad</span>
-        </div>
-        <div v-if="category?.slug == 'ashar'">
-          <h4 class="m-0">Dzikir Setelah Sholat Asar</h4>
-          <h4 class="m-0">🍀 Hizbul Bahr 🍀</h4>
-          <span class="m-0">Al-Imam Abi Hasan Asy-Syadzili</span>
-        </div>
-        <div v-if="category?.slug == 'maghrib'">
-          <h4 class="m-0">Dzikir Setelah Sholat Magrib</h4>
-          <h4 class="m-0">🍀 Ratib Al-Haddad 🍀</h4>
-          <span class="m-0">Al-Imam Abdullah Bin Alwi Al-Haddad</span>
-        </div>
-        <div v-if="category?.slug == 'isya'">
-          <h4 class="m-0">Dzikir Setelah Sholat Isya'</h4>
-          <h4 class="m-0">🍀 Wirid 🍀</h4>
-          <span class="m-0">Al-Imam Abu Bakar Bin Addurrahman Assegaf</span>
-        </div>
-        <h4></h4>
       </div>
       <table class="table">
         <tbody>
