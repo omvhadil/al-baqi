@@ -16,20 +16,24 @@ const dzikri = category.dzikri
 const tampilCategory = computed(() => dzikri[categoryNumber.value])
 </script>
 <template>
-  <Header :title="kitab.arab" />
-  <div class="d-flex bg-success p-3 gap-2 position-fixed w-100 start-0">
-    <button
-      v-for="item in category?.dzikri"
-      :key="item.id"
-      @click="categoryNumber = item.id - 1"
-      class="btn btn-success border w-100"
-      type="button"
-    >
-      {{ item.title }}
-    </button>
-  </div>
+  <Header :title="kitab.arab">
+    <template #menu>
+      <div class="d-flex bg-success p-2 px-3 gap-2 w-100">
+        <button
+          v-for="item in category?.dzikri"
+          :key="item.id"
+          @click="categoryNumber = item.id - 1"
+          class="btn btn-success border w-100"
+          type="button"
+        >
+          {{ item.title }}
+        </button>
+      </div>
+    </template>
+  </Header>
+
   <div class="container mt-5 pt-5">
-    <div class="pt-4">
+    <div class="pt-5">
       <div class="text-center mb-3">
         <div>
           <h4 class="m-0">﴾ {{ category.title }} ﴿</h4>
