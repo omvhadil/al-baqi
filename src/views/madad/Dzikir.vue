@@ -23,7 +23,7 @@ const tampilCategory = computed(() => dzikri[categoryNumber.value])
           v-for="item in category?.dzikri"
           :key="item.id"
           @click="categoryNumber = item.id - 1"
-          class="btn btn-success border w-100"
+          class="btn btn-success border-light w-100"
           type="button"
         >
           {{ item.title }}
