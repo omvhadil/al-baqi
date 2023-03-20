@@ -45,7 +45,7 @@ const tampilCategory = computed(() => dzikri[categoryNumber.value])
         <tbody>
           <tr v-for="item in tampilCategory?.bait_bait" :key="item.id">
             <td class="col-11 text-end" :class="item.arab ? 'border-bottom' : ''">
-              <h1 class="m-0 py-1">{{ item.arab }}</h1>
+              <h2 class="m-0 py-1" style="line-height: 2 !important">{{ item.arab }}</h2>
             </td>
           </tr>
         </tbody>
