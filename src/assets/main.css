@@ -27,3 +27,6 @@ img{
 .cursor{
   cursor: pointer;
 }
+.text-small{
+  font-size: .913rem;
+}

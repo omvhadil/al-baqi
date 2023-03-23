@@ -9,23 +9,23 @@ const router = useRouter()
 </script>
 <template>
   <div class="bg-success bg-gradient p-5 rounded-bottom-5 border-bottom border-5 text-light">
-    <h1 class="text-center font-aref" style="font-size: 5rem">الْخَيْرِيَة</h1>
-    <h3 class="text-center">AL-khairiyah</h3>
+    <h1 class="text-center font-aref" style="font-size: 5rem">آلاَبِمْ</h1>
+    <h3 class="text-center">alabim</h3>
     <div class="position-absolute" style="top: 0.7rem; right: 1rem">
       <Toggle />
     </div>
   </div>
   <div class="container mt-4">
     <div class="row row-gap-3">
-      <div v-for="item in data" :key="item.id" class="col-4 text-center">
+      <div v-for="item in data" :key="item.id" class="col-3 text-center">
         <div
           @click="router.push('/' + item.slug)"
-          class="text-center border bg-secondary bg-opacity-25"
-          style="height: 170px"
+          class="mx-auto border bg-success-subtle rounded-circle bg-opacity-25 p-2"
+          style="height: 60px; width: 60px"
         >
-          <img :src="item.image" alt="" />
+          <img :src="item.image" class="rounded-circle" />
         </div>
-        <h5 class="mt-1">{{ item.title }}</h5>
+        <h5 class="mt-1 text-small">{{ item.title }}</h5>
       </div>
     </div>
   </div>

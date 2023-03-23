@@ -23,42 +23,7 @@ watchEffect(() => {
 })
 </script>
 <template>
-  <div
-    style="font-size: 1.5rem; color: #fff; cursor: pointer"
-    data-bs-toggle="offcanvas"
-    data-bs-target="#offcanvasResponsive"
-    aria-controls="offcanvasResponsive"
-  >
-    <i class="ri-align-right"></i>
-  </div>
-
-  <div
-    class="offcanvas offcanvas-end"
-    style="width: 60%"
-    tabindex="10"
-    id="offcanvasResponsive"
-    aria-labelledby="offcanvasResponsiveLabel"
-  >
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Setting</h5>
-      <button
-        type="button"
-        class="btn-close"
-        data-bs-dismiss="offcanvas"
-        data-bs-target="#offcanvasResponsive"
-        aria-label="Close"
-      ></button>
-    </div>
-    <div class="offcanvas-body">
-      <div class="form-check form-switch mb-3 border-1">
-        <input
-          class="form-check-input"
-          type="checkbox"
-          @click="useMode()"
-          :checked="localStorage?.getItem('mode') === 'dark'"
-        />
-        <label class="form-check-label" for="flexSwitchCheckDefault">Mode</label>
-      </div>
-    </div>
+  <div @click="useMode()" style="font-size: 1.5rem; color: #fff; cursor: pointer">
+    <i class="ri-contrast-fill"></i>
   </div>
 </template>

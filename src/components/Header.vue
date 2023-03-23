@@ -7,7 +7,7 @@ const router = useRouter()
 const data = defineProps({
   title: {
     type: String,
-    default: 'الْخَيْرِيَة'
+    default: 'آلاَبِمْ'
   }
 })
 </script>
@@ -19,7 +19,7 @@ const data = defineProps({
         class="text-center text-light m-0 p-1 font-aref cursor"
         style="font-size: 2rem"
       >
-        الْخَيْرِيَة
+        آلاَبِمْ
       </h1>
       <h3 class="text-light m-0">{{ data.title }}</h3>
       <Toggle />
