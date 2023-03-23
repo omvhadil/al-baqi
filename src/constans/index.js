@@ -4079,29 +4079,54 @@ export const data = [
     category: [
       {
         id: 1,
-        slug: 'dhuha',
-        title: 'Doa Setelah Sholat Duha',
-        arab: 'ذِكْرً بَعْدَ صَلاَةِ الضُّحَىِ',
-        latin: 'Dzikir ba’da shalāti al-dhuha',
+        slug: 'doa-niat-puasa',
+        title: 'Doa Niat Puasa Ramadhan',
+        arab: '',
+        latin: '',
         dzikri: [
           {
             id: 1,
-            arab: 'ذِكْرَ',
-            title: ' Do’a',
+            arab: '',
+            title: ' Do’a Niat Puasa Ramadhan',
             name: '',
             subName: '',
             latin: 'Dzikra',
             bait_bait: [
               {
                 id: 1,
-                arab: 'اَللّٰهُمَّ اِنَّ الضُّحَآءَ ضُحَاءُكَ وَالْبَهَاءَ بَهَاءُكَ وَالْجَمَالَ جَمَالُكَ وَالْقُوَّةَ قُوَّتُكَ وَالْقُدْرَةَ قُدْرَتُكَ وَالْعِصْمَةَ عِصْمَتُكَ  ، اَللّٰهُمَّ اِنْ كَانَ رِزْقِى فِى السَّمَآءِ فَأَنْزِلْهُ وَاِنْ كَانَ فِى اْلاَرْضِ فَأَخْرِجْهُ وَاِنْ كَانَ مُعَسَّرًا فَيَسِّرْهُ وَاِنْ كَانَ حَرَامًا فَطَهِّرْهُ وَاِنْ كَانَ بَعِيْدًا فَقَرِّبْهُ  ، بِحَقِّ ضُحَاءِكَ وَبَهَاءِكَ وَجَمَالِكَ وَقُوَّتِكَ وَقُدْرَتِكَ آتِنِىْ مَآاَتَيْتَ عِبَادَكَ الصَّالِحِيْنَ',
+                arab: 'نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ فَرْضِ شَهْرِ رَمَضَانَ هَذِهِ السَّنَةِ لِلّٰهِ تَعَالَى',
                 latin: '',
                 arti: ''
               }
             ]
           }
         ]
-      }
+      },
+      {
+        id: 2,
+        slug: 'doa-berbuka-puasa',
+        title: 'Doa Berbuka Puasa Ramadhan',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' Do’a Berbuka Puasa Ramadhan',
+            name: '',
+            subName: '',
+            latin: 'Dzikra',
+            bait_bait: [
+              {
+                id: 1,
+                arab: 'اَللّٰهُمَّ لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ بِرَحْمَتِكَ يَا اَرْحَمَ الرَّحِمِيْنَ',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
     ]
   },
 ]
