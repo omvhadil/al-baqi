@@ -16,7 +16,7 @@ const data = defineProps({
     <div class="container d-flex align-items-center p-2">
       <h1
         @click="router.push('/')"
-        class="text-center text-light m-0 p-1 font-aref"
+        class="text-center text-light m-0 p-1 font-aref cursor"
         style="font-size: 2rem"
       >
         الْخَيْرِيَة

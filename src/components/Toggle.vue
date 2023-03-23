@@ -16,7 +16,7 @@ const useMode = () => {
 </script>
 <template>
   <div
-    style="font-size: 1.5rem; color: #fff"
+    style="font-size: 1.5rem; color: #fff; cursor: pointer"
     data-bs-toggle="offcanvas"
     data-bs-target="#offcanvasResponsive"
     aria-controls="offcanvasResponsive"
@@ -51,7 +51,7 @@ const useMode = () => {
           :checked="localStorage?.getItem('mode') === 'light'"
           @click="useMode()"
         />
-        <label class="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
+        <label class="form-check-label" for="flexSwitchCheckDefault">Mode</label>
       </div>
     </div>
   </div>
