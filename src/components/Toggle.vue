@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
-// import { ref } from 'vue'
+import { watchEffect } from 'vue'
 
 const useMode = () => {
   let element = document.querySelector('html')
@@ -13,6 +13,14 @@ const useMode = () => {
     localStorage.setItem('mode', 'dark')
   }
 }
+
+watchEffect(() => {
+  if (localStorage?.getItem('mode') === 'light') {
+    document.querySelector('html').setAttribute('data-bs-theme', 'light')
+  } else {
+    document.querySelector('html').setAttribute('data-bs-theme', 'dark')
+  }
+})
 </script>
 <template>
   <div
@@ -46,10 +54,8 @@ const useMode = () => {
         <input
           class="form-check-input"
           type="checkbox"
-          role="switch"
-          id="flexSwitchCheckDefault"
-          :checked="localStorage?.getItem('mode') === 'light'"
           @click="useMode()"
+          :checked="localStorage?.getItem('mode') === 'dark'"
         />
         <label class="form-check-label" for="flexSwitchCheckDefault">Mode</label>
       </div>
