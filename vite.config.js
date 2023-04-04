@@ -9,8 +9,8 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({ registerType: 'autoUpdate',  manifest: {
-      name: 'khairiyah',
-      short_name: 'khairiyah',
+      name: 'Al-Baqi',
+      short_name: 'Al-Baqi',
       theme_color: '#198754',
       background_color: '#198754',
       display: 'standalone',
