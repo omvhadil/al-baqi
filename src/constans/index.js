@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1,
     slug: 'madad',
-    image: 'https://archive.org/services/img/habib-umar-al-khulasoh-2019/full/pct:200/0/default.jpg',
+    image: 'ri-book-mark-line text-white',
     title: 'Khulasoh',
     arab: 'الْخُلاَصَةُ الْمَدَدًا النَّبَوِي',
     latin: 'Khulashotul Madadan Nabawi',
@@ -3219,7 +3219,7 @@ export const data = [
   {
     id: 2,
     slug: 'majmu',
-    image: 'https://www.sinarbarualgensindo.com/wp-content/uploads/2020/06/Majmu-luks.jpg',
+    image: 'ri-book-2-line text-white',
     title: 'Majmu’',
     arab: 'مَجْمُوعَةُ الشَّرِيفِ',
     latin: 'Majmu’ As-syarif',
@@ -4037,7 +4037,7 @@ export const data = [
   {
     id: 3,
     slug: 'simtut',
-    image: 'https://blogger.googleusercontent.com/img/a/AVvXsEhU-qxdBiMy4mHbK6mQj6Sf3JLNFxO5CtN_Xb5wKuWGwwQxY_bxSMUqEf1Tc7v3iYZVdanFZrK-GSbIIm2g7h06krtNBAf-7A_Q6FoDd7guk5iUhBakTUGHIBBZbc5AM4iwnjlkpkJ5BRDzfYQviDAgj5KJmpEND8XdRqW-oWdlKPvPwUR8WUH1Psmw=w480-h640',
+    image: 'ri-booklet-line text-white',
     title: 'Simtut',
     arab: 'سِمْطُ الدُّرَرْ',
     latin: 'Simtut Durar',
@@ -4072,7 +4072,7 @@ export const data = [
   {
     id: 4,
     slug: 'romadhon',
-    image: 'https://3.bp.blogspot.com/-FNVBvyNGxCk/V1dbhEH2F2I/AAAAAAAABs8/Kv6bNAsleXkUbggcQBA8oQ6lFrpHaxUGgCLcB/s1600/download-pdf-keutamaan-puasa-karya-ibnu-hajar-haitami.jpg',
+    image: 'ri-book-read-line text-white',
     title: 'Romadhon',
     arab: 'الرَّمَضَان',
     latin: 'Romadhon',

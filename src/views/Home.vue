@@ -9,23 +9,33 @@ const router = useRouter()
 </script>
 <template>
   <div class="bg-success bg-gradient p-5 rounded-bottom-5 border-bottom border-5 text-light">
-    <h1 class="text-center font-aref" style="font-size: 5rem">آلاَبِمْ</h1>
-    <h3 class="text-center">alabim</h3>
+    <h1 class="text-center font-aref" style="font-size: 5rem">الْبَاقِيْ</h1>
+    <h3 class="text-center mt-4">Al-Baqi</h3>
     <div class="position-absolute" style="top: 0.7rem; right: 1rem">
       <Toggle />
     </div>
   </div>
   <div class="container mt-4">
     <div class="row row-gap-3">
-      <div v-for="item in data" :key="item.id" class="col-3 text-center">
-        <div
-          @click="router.push('/' + item.slug)"
-          class="mx-auto border bg-success-subtle rounded-circle bg-opacity-25 p-2"
-          style="height: 60px; width: 60px"
-        >
-          <img :src="item.image" class="rounded-circle" />
+      <div v-for="item in data" :key="item.id" class="col-3">
+        <div class="content text-center">
+          <div
+            @click="router.push('/' + item.slug)"
+            class="image bg-success bg-opacity-50 mx-auto rounded-3"
+            style="width: 60px; height: 60px"
+          >
+            <i :class="item.image" style="font-size: 2.5rem"></i>
+          </div>
+          <span>{{ item.title }}</span>
         </div>
-        <h5 class="mt-1 text-small">{{ item.title }}</h5>
+      </div>
+    </div>
+    <div
+      class="position-absolute d-flex justify-content-center w-100"
+      style="bottom: 1rem; left: 0"
+    >
+      <div class="image_from" style="width: 60px">
+        <img src="../assets/from-alabim.png" alt="" />
       </div>
     </div>
   </div>
