@@ -36,7 +36,7 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
     </template>
   </Header>
 
-  <div class="container mt-5" :class="jmlcategorydzikir > 1 ? 'p-5' : 'p-0'">
+  <div class="container mt-5 px-2" :class="jmlcategorydzikir > 1 ? 'py-5' : 'py-0'">
     <div class="pt-5">
       <div class="text-center mb-3">
         <div>
