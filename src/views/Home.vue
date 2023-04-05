@@ -21,10 +21,11 @@ const router = useRouter()
         <div class="content text-center">
           <div
             @click="router.push('/' + item.slug)"
-            class="image bg-success bg-opacity-50 mx-auto rounded-3"
+            class="image bg-success bg-opacity-50 mx-auto rounded-3 d-flex justify-content-center align-items-center"
             style="width: 60px; height: 60px"
           >
-            <i :class="item.image" style="font-size: 2.5rem"></i>
+            <span class="opacity-75" style="font-size: 2rem">{{ item.image }}</span>
+            <!-- <i :class="item.image" style="font-size: 2.5rem"></i> -->
           </div>
           <span>{{ item.title }}</span>
         </div>
@@ -34,8 +35,9 @@ const router = useRouter()
       class="position-absolute d-flex justify-content-center w-100"
       style="bottom: 1rem; left: 0"
     >
-      <div class="image_from" style="width: 60px">
-        <img src="../assets/from-alabim.png" alt="" />
+      <div class="text-center">
+        <p class="m-0">From</p>
+        <h5 class="m-0 fw-bold text-success">Alabim</h5>
       </div>
     </div>
   </div>

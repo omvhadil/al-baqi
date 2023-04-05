@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1,
     slug: 'madad',
-    image: 'ri-book-mark-line text-white',
+    image: '📙',
     title: 'Khulasoh',
     arab: 'الْخُلاَصَةُ الْمَدَدًا النَّبَوِي',
     latin: 'Khulashotul Madadan Nabawi',
@@ -3219,7 +3219,7 @@ export const data = [
   {
     id: 2,
     slug: 'majmu',
-    image: 'ri-book-2-line text-white',
+    image: '📘',
     title: 'Majmu’',
     arab: 'مَجْمُوعَةُ الشَّرِيفِ',
     latin: 'Majmu’ As-syarif',
@@ -4043,7 +4043,7 @@ export const data = [
   {
     id: 3,
     slug: 'simtut',
-    image: 'ri-booklet-line text-white',
+    image: '📗',
     title: 'Simtut',
     arab: 'سِمْطُ الدُّرَرْ',
     latin: 'Simtut Durar',
@@ -4078,7 +4078,7 @@ export const data = [
   {
     id: 4,
     slug: 'romadhon',
-    image: 'ri-book-read-line text-white',
+    image: '📕',
     title: 'Romadhon',
     arab: 'الرَّمَضَان',
     latin: 'Romadhon',
@@ -4534,7 +4534,7 @@ export const data = [
   {
     id: 5,
     slug: 'Basaudan',
-    image: 'ri-git-repository-line text-white',
+    image: '📔',
     title: 'Basaudan',
     arab: '',
     latin: '',
