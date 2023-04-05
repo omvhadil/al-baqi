@@ -14,11 +14,15 @@ const category = kitab.category.find((item) => item.slug === categoryId)
 const dzikri = category.dzikri
 
 const tampilCategory = computed(() => dzikri[categoryNumber.value])
+
+const jmlcategorydzikir = dzikri.length
+const jmlname = dzikri[categoryNumber.value].name.length
+const jmlSubname = dzikri[categoryNumber.value].subName.length
 </script>
 <template>
   <Header :title="kitab.arab">
     <template #menu>
-      <div class="d-flex bg-success p-2 px-3 gap-2 w-100">
+      <div v-if="jmlcategorydzikir > 1" class="d-flex bg-success p-2 px-3 gap-2 w-100">
         <button
           v-for="item in category?.dzikri"
           :key="item.id"
@@ -32,13 +36,13 @@ const tampilCategory = computed(() => dzikri[categoryNumber.value])
     </template>
   </Header>
 
-  <div class="container mt-5 pt-5">
+  <div class="container mt-5" :class="jmlcategorydzikir > 1 ? 'p-5' : 'p-0'">
     <div class="pt-5">
       <div class="text-center mb-3">
         <div>
           <h4 class="m-0">﴾ {{ category.title }} ﴿</h4>
-          <h4 class="m-0">🍀 {{ tampilCategory?.name }} 🍀</h4>
-          <span class="m-0">{{ tampilCategory?.subName }}</span>
+          <h4 v-if="jmlname" class="m-0">🍀 {{ tampilCategory?.name }} 🍀</h4>
+          <span v-if="jmlSubname" class="m-0">{{ tampilCategory?.subName }}</span>
         </div>
       </div>
       <table class="table">
