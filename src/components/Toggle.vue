@@ -24,7 +24,7 @@ watchEffect(() => {
 </script>
 <template>
   <div @click="useMode()" style="color: #fff; cursor: pointer">
-    <span class="text-white m-0" style="font-size: 2rem">❄</span>
+    <span class="text-white m-0" style="font-size: 1.5rem">❄</span>
     <!-- <i class="ri-contrast-fill"></i> -->
   </div>
 </template>
