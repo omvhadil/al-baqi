@@ -48,8 +48,10 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
       <table class="table">
         <tbody>
           <tr v-for="item in tampilCategory?.bait_bait" :key="item.id">
-            <td class="col-11 text-end" :class="item.arab ? 'border-bottom' : ''">
-              <h1 class="m-0 py-1" style="line-height: 2 !important">{{ item.arab }}</h1>
+            <td class="col-11" :class="item.arab ? 'border-bottom' : ''">
+              <h1 class="m-0 py-1 text-end" style="line-height: 2 !important">
+                {{ item.arab }}
+              </h1>
             </td>
           </tr>
         </tbody>
