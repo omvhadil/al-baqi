@@ -13,7 +13,6 @@ export const data = [
         title: 'Dzikir Setelah Sholat Fardhu',
         arab: 'ذِكْرٌ بَعْدَ صَلَاةِ الْفَرِيضَةِ',
         latin: 'Dzikir ba’da shalāti al-farīdāti',
-        link: '/madad/fardhu',
         dzikri: [
           {
             id: 1,
@@ -82,7 +81,6 @@ export const data = [
         title: 'Dzikir Setelah Sholat Subuh',
         arab: 'ذِكْرً بَعْدَ صَلاَةِ الصُّبْحِ',
         latin: 'Dzikir ba’da shalāti as-subhi',
-        link: '/madad/subuh',
         dzikri: [
           {
             id: 1,
@@ -1365,7 +1363,6 @@ export const data = [
         title: 'Dzikir Setelah Sholat Dzuhur',
         arab: 'ذِكْرً بَعْدَ صَلاَةِ الظُّهْرِ',
         latin: 'Dzikir ba’da shalāti ad-dzuhri',
-        link: '/madad/dzuhur',
         dzikri: [
           {
             id: 1,
@@ -1475,7 +1472,6 @@ export const data = [
         title: 'Dzikir Setelah Sholat Ashar',
         arab: 'ذِكْرً بَعْدَ صَلاَةِ العَصْرِ',
         latin: 'Dzikir ba’da shalāti as-syuri',
-        link: '/madad/ashar',
         dzikri: [
           {
             id: 1,
@@ -2232,7 +2228,6 @@ export const data = [
         title: 'Dzikir Setelah Sholat Maghrib',
         arab: 'ذِكْرً بَعْدَ صَلاَةِ المَغْرِبِ',
         latin: 'Dzikir ba’da shalāti al-maghribi',
-        link: '/madad/mahgrib',
         dzikri: [
           {
             id: 1,
@@ -3004,7 +2999,6 @@ export const data = [
         title: 'Dzikir Setelah Sholat Isya’',
         arab: 'ذِكْرً بَعْدَ صَلاَةِ العِشَاءِ',
         latin: 'Dzikir ba’da shalāti al-isyā’i',
-        link: '/madad/isya',
         dzikri: [
           {
             id: 1,
@@ -3212,6 +3206,31 @@ export const data = [
               },
             ]
           }
+        ]
+      },
+      {
+        id: 7,
+        slug: 'kahfi',
+        title: 'Surat Al-Kahfi',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: '',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          },
         ]
       }
     ]
@@ -4053,51 +4072,6 @@ export const data = [
           }
         ]
       },
-      {
-        id: 4,
-        slug: 'dhuha',
-        title: 'Doa Setelah Sholat Dhuha',
-        arab: 'ذِكْرً بَعْدَ صَلاَةِ الضُّحَىِ',
-        latin: 'Dzikir ba’da shalāti al-dhuha',
-        dzikri: [
-          {
-            id: 1,
-            arab: 'ذِكْرَ',
-            title: ' Do’a',
-            name: '',
-            subName: '',
-            latin: 'Dzikra',
-            bait_bait: [
-              {
-                id: 1,
-                arab: 'اَللّٰهُمَّ اِنَّ الضُّحَآءَ ضُحَاءُكَ وَالْبَهَاءَ بَهَاءُكَ وَالْجَمَالَ جَمَالُكَ وَالْقُوَّةَ قُوَّتُكَ وَالْقُدْرَةَ قُدْرَتُكَ وَالْعِصْمَةَ عِصْمَتُكَ  ، اَللّٰهُمَّ اِنْ كَانَ رِزْقِى فِى السَّمَآءِ فَأَنْزِلْهُ وَاِنْ كَانَ فِى اْلاَرْضِ فَأَخْرِجْهُ وَاِنْ كَانَ مُعَسَّرًا فَيَسِّرْهُ وَاِنْ كَانَ حَرَامًا فَطَهِّرْهُ وَاِنْ كَانَ بَعِيْدًا فَقَرِّبْهُ  ، بِحَقِّ ضُحَاءِكَ وَبَهَاءِكَ وَجَمَالِكَ وَقُوَّتِكَ وَقُدْرَتِكَ آتِنِىْ مَآاَتَيْتَ عِبَادَكَ الصَّالِحِيْنَ',
-                latin: '',
-                arti: ''
-              }
-            ]
-          }
-        ]
-      },
-      {
-        id: 5,
-        slug: 'tahajjud',
-        title: '(belum) Doa Setelah Sholat Tahajjud',
-        arab: '',
-        latin: '',
-        dzikri: [
-          {
-            id: 1,
-            title: '',
-            name: '',
-            subName: '',
-            arab: '',
-            latin: ' ',
-            bait_bait: [
-
-            ]
-          }
-        ]
-      },
     ]
   },
   {
@@ -4110,36 +4084,511 @@ export const data = [
     category: [
       {
         id: 1,
-        slug: 'dhuha',
-        title: 'Doa Setelah Sholat Duha',
-        arab: 'ذِكْرً بَعْدَ صَلاَةِ الضُّحَىِ',
-        latin: 'Dzikir ba’da shalāti al-dhuha',
+        slug: 'sholawat-1',
+        title: '(belum) Sholawat Pertama',
+        arab: '',
+        latin: '',
         dzikri: [
           {
             id: 1,
-            arab: 'ذِكْرَ',
-            title: ' Do’a',
+            arab: '',
+            title: ' ',
             name: '',
             subName: '',
-            latin: 'Dzikra',
+            latin: '',
             bait_bait: [
               {
                 id: 1,
-                arab: 'اَللّٰهُمَّ اِنَّ الضُّحَآءَ ضُحَاءُكَ وَالْبَهَاءَ بَهَاءُكَ وَالْجَمَالَ جَمَالُكَ وَالْقُوَّةَ قُوَّتُكَ وَالْقُدْرَةَ قُدْرَتُكَ وَالْعِصْمَةَ عِصْمَتُكَ  ، اَللّٰهُمَّ اِنْ كَانَ رِزْقِى فِى السَّمَآءِ فَأَنْزِلْهُ وَاِنْ كَانَ فِى اْلاَرْضِ فَأَخْرِجْهُ وَاِنْ كَانَ مُعَسَّرًا فَيَسِّرْهُ وَاِنْ كَانَ حَرَامًا فَطَهِّرْهُ وَاِنْ كَانَ بَعِيْدًا فَقَرِّبْهُ  ، بِحَقِّ ضُحَاءِكَ وَبَهَاءِكَ وَجَمَالِكَ وَقُوَّتِكَ وَقُدْرَتِكَ آتِنِىْ مَآاَتَيْتَ عِبَادَكَ الصَّالِحِيْنَ',
+                arab: '',
                 latin: '',
                 arti: ''
               }
             ]
           }
         ]
-      }
+      },
+      {
+        id: 2,
+        slug: 'sholawat-2',
+        title: '(belum) Sholawat Kedua',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 3,
+        slug: 'inna-fatahna',
+        title: '(belum) Inna Fatahna',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 4,
+        slug: 'alhamdulillah',
+        title: '(belum) Alhamdulillah',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 5,
+        slug: 'tajallal-hakku',
+        title: '(belum) Tajallal Haqqu',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 6,
+        slug: 'ashadualla',
+        title: '(belum) Ashadualla',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 7,
+        slug: 'amma-bakdu',
+        title: '(belum) Amma Ba`du',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 8,
+        slug: 'waqod-analil',
+        title: '(belum) Waqod Analil Qolami',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 9,
+        slug: 'wamundu-alikot',
+        title: '(belum) Wamundu Aliqot',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 10,
+        slug: 'fahina-qoruba',
+        title: '(belum) Fahina Qoruba',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 10,
+        slug: 'mahallul-qiyam',
+        title: '(belum) ﴾ Mahallul Qiyam ﴿',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 11,
+        slug: 'wahina-baroza',
+        title: '(belum) Wahiina Baroza',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 12,
+        slug: 'stumma-innahu',
+        title: '(belum) Tsumma Innahu',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 13,
+        slug: 'fanasa`a',
+        title: '(belum) Fanasa`a Shollallah',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 14,
+        slug: 'tsumma-innahu-bakda',
+        title: '(belum) Tsumma Innah Ba`da',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 15,
+        slug: 'waminas-syarofi',
+        title: '(belum) Waminas Syrofilladzi',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 16,
+        slug: 'wahaisu',
+        title: '(belum) Wahaisu Tasyarrofat',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 17,
+        slug: 'walakodit-tashofa',
+        title: '(belum) Walakodit Tashofa',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 18,
+        slug: 'walamma-nadhoma',
+        title: '(belum) Walammah Nadhomal Fikru',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 19,
+        slug: 'doa-simtut-duror',
+        title: '(belum) ﴾ Doa ﴿',
+        arab: '',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            arab: '',
+            title: ' ',
+            name: '',
+            subName: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: ''
+              }
+            ]
+          }
+        ]
+      },
     ]
   },
   {
     id: 4,
     slug: 'diba',
     image: '🛕',
-    title: 'Diba’',
+    title: 'Diba’i',
     arab: '',
     latin: 'Ad-Diba’i',
     category: [
@@ -5778,7 +6227,7 @@ export const data = [
     id: 4,
     slug: 'tutunan-sholat',
     image: '👑',
-    title: 'T. Sholat',
+    title: 'T Sholat',
     arab: '',
     latin: 'Ad-Diba’i',
     category: [

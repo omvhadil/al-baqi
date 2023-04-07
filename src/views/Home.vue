@@ -22,7 +22,7 @@ const router = useRouter()
           <div
             @click="router.push('/' + item.slug)"
             class="image bg-success bg-opacity-50 mx-auto rounded-circle d-flex justify-content-center align-items-center"
-            style="width: 50px; height: 50px"
+            style="width: 60px; height: 60px"
           >
             <span class="opacity-75" style="font-size: 1.5rem">{{ item.image }}</span>
             <!-- <i :class="item.image" style="font-size: 2.5rem"></i> -->
