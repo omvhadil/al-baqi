@@ -21,10 +21,10 @@ const router = useRouter()
         <div class="content text-center">
           <div
             @click="router.push('/' + item.slug)"
-            class="image bg-success bg-opacity-50 mx-auto rounded-3 d-flex justify-content-center align-items-center"
-            style="width: 60px; height: 60px"
+            class="image bg-success bg-opacity-50 mx-auto rounded-circle d-flex justify-content-center align-items-center"
+            style="width: 50px; height: 50px"
           >
-            <span class="opacity-75" style="font-size: 2rem">{{ item.image }}</span>
+            <span class="opacity-75" style="font-size: 1.5rem">{{ item.image }}</span>
             <!-- <i :class="item.image" style="font-size: 2.5rem"></i> -->
           </div>
           <span>{{ item.title }}</span>

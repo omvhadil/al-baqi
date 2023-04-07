@@ -10,7 +10,7 @@ const kitab = data.find((item) => item.slug === kitabId)
 </script>
 <template>
   <Header :title="kitab.arab" />
-  <div class="container mt-5 pt-4">
+  <div class="container mt-5 pt-4 pb-5">
     <div class="mb-4 mt-2">
       <input type="search" class="form-control" placeholder="Search" />
     </div>
