@@ -17,7 +17,7 @@ const router = useRouter()
   </div>
   <div class="container mt-4">
     <div class="row row-gap-3">
-      <div v-for="item in data" :key="item.id" class="col-3">
+      <div v-for="item in data" :key="item.id" class="col-3 cursor">
         <div class="content text-center">
           <div
             @click="router.push('/' + item.slug)"
