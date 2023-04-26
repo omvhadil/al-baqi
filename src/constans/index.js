@@ -7534,7 +7534,7 @@ export const data = [
   {
     id: 6,
     slug: 'romadhon',
-    image: '🌟',
+    image: '🌿',
     title: 'Romadhon',
     arab: 'الرَّمَضَان',
     latin: 'Romadhon',
