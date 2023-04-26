@@ -1,8 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import { useRouter, useRoute } from 'vue-router'
-import { data } from '../../constans/index.js'
-import Header from '../../components/Header.vue'
+import { data } from '../constans'
+import Header from '../components/Header.vue'
 
 const router = useRouter()
 const kitabId = useRoute().params.kitab

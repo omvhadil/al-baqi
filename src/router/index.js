@@ -11,12 +11,12 @@ const router = createRouter({
     {
       path: '/:kitab',
       name: 'madad-home',
-      component: () => import('../views/madad/Categori.vue')
+      component: () => import('../views/Categori.vue')
     },
     {
       path: '/:kitab/:category',
       name: 'dzikir',
-      component: () => import('../views/madad/Dzikir.vue')
+      component: () => import('../views/Dzikir.vue')
     }
   ]
 })
