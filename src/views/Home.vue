@@ -18,13 +18,74 @@ const router = useRouter()
       >
     </nav>
     <article class="ps-4 pe-4">
-      <div class="content_articl bg-white p-3 rounded shadow-sm">
+      <div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="content_articl bg-white p-3 rounded shadow-sm">
+                <p class="m-0 text-center fs-4 text-success">
+                  الْعِلْمُ صَيْدٌ وَالْكِتَابَةٌ قَيْدُهُ
+                </p>
+                <p class="m-0 text-center fs-4 text-success">
+                  قَيِّدْ صُيُوْدَكَ بِالْحِبَالِ الْوَاثِقَةِ
+                </p>
+                <p class="m-0 text-center mt-2">
+                  Ilmu itu buruan dan tulisan adalah talinya, ikatlah buruanmu dengan tali yang kuat
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="content_articl bg-white p-3 rounded shadow-sm">
+                <p class="m-0 text-center fs-4 text-primary">
+                  وَالْأُسُدُ لَوْلاَ فِرَاقُ الْغَابِ مَاافْتَرَسَتْ
+                </p>
+                <p class="m-0 text-center fs-4 text-primary">
+                  وَالسَّهْمُ لَوْلاَ فِرَاقُ الْقَوْسِ لَمْ يُصِبْ
+                </p>
+                <p class="m-0 text-center mt-2">
+                  Singa-singa bila tak keluar dari sarangnya tak dapat mangsa, anak panah bila tidak
+                  lepas dari busurnya tak akan mengenai sasaran.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="content_articl bg-white p-3 rounded shadow-sm">
+                <p class="m-0 text-center fs-4 text-danger">
+                  الْوَقْتُ كَالسَّيْفِ إِنْ لَمْ تَقْطَعْهُ قَطَعَكَ
+                </p>
+                <p class="m-0 text-center mt-2">
+                  Waktu bagaikan pedang, bila kamu tidak memotongnya dia akan memotongmu.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- <div class="content_articl bg-white p-3 rounded shadow-sm">
         <p class="m-0 text-center fs-4">الْعِلْمُ صَيْدٌ وَالْكِتَابَةٌ قَيْدُهُ</p>
         <p class="m-0 text-center fs-4">قَيِّدْ صُيُوْدَكَ بِالْحِبَالِ الْوَثِقَةِ</p>
         <p class="m-0 text-center mt-2">
           Ilmu itu buruan dan tulisan adalah talinya, ikatlah buruanmu dengan tali yang kuat
         </p>
-      </div>
+      </div> -->
     </article>
   </header>
   <main class="ps-3 pe-3" style="padding-top: 15rem">
