@@ -12,11 +12,11 @@ const data = defineProps({
 })
 </script>
 <template>
-  <nav
-    class="bg-gradient-first-color position-fixed top-0 start-0 w-100 p-0"
-    style="height: 3.5rem"
-  >
-    <div class="container d-flex align-items-center p-2 justify-content-between mb-2">
+  <nav class="bg-gradient-first-color position-fixed top-0 start-0 w-100 p-0">
+    <div
+      class="container d-flex align-items-center p-2 justify-content-between"
+      style="height: 3.5rem"
+    >
       <div
         @click="router.back()"
         class="text-center text-light m-0 p-1 font-aref cursor"
