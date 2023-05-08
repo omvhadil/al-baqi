@@ -1,19 +1,29 @@
-/* @import './base.css'; */
-/* @import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Mirza&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
 
+:root{
+  /* 153 hijau */
+  /* 243 biru */
+  /* 300 ungu */
+  --hue: 243;
+  --first-color: hsl(var(--hue), 69%, 31%);
+  --first-color-alt: hsl(var(--hue), 50%, 70%);
+  --gradient-first-color: linear-gradient(to bottom, var(--first-color), hsl(var(--hue), 57%, 53%));
+}
+
+.bg-first-color{
+  background-color: var(--first-color);
+}
+.bg-first-color-alt{
+  background-color: var(--first-color-alt);
+}
+.bg-gradient-first-color{
+  background-image: var(--gradient-first-color);
+}
 body{
-    /* background-color: #212529 !important; */
-    /* font-family: 'Mirza', cursive !important; */
-    /* font-family: 'Amiri', serif !important; */
     font-family: 'Scheherazade New', serif !important;
-    /* font-size: 16px; */
-    /* color: #fff !important; */
 }
 .container-app {
-  /* background-color: #212529; */
   max-width: 450px;
   height: 100vh;
 }
@@ -29,4 +39,10 @@ img{
 }
 .text-small{
   font-size: .913rem;
+}
+.toggle{
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.icon-back{
+  clip-path: polygon(40% 0%, 40% 38%, 100% 38%, 100% 62%, 40% 62%, 40% 100%, 0% 50%);
 }
