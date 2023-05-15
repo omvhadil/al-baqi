@@ -6,7 +6,7 @@
   /* 243 biru */
   /* 300 ungu */
   /* 1 red */
-  --hue: 1;
+  --hue: 153;
   --first-color: hsl(var(--hue), 69%, 31%);
   --first-color-alt: hsl(var(--hue), 50%, 70%);
   --gradient-first-color: linear-gradient(to bottom, var(--first-color), hsl(var(--hue), 57%, 53%));
