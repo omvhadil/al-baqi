@@ -34,7 +34,7 @@
       ></button>
     </div>
     <div class="offcanvas-body">
-      <div>I will not close if you click outside of me.</div>
+      <div>Masih belum selesai</div>
     </div>
   </div>
 </template>
