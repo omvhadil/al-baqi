@@ -17,12 +17,16 @@ const data = defineProps({
       class="container d-flex align-items-center p-2 justify-content-between"
       style="height: 3.5rem"
     >
-      <div
-        @click="router.back()"
-        class="text-center text-light m-0 p-1 font-aref cursor"
-        style="font-size: 2rem"
-      >
-        <div class="bg-white icon-back" style="width: 30px; height: 15px"></div>
+      <div @click="router.back()" class="cursor">
+        <!-- begin:icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path
+            fill="white"
+            d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
+          ></path>
+        </svg>
+        <!-- end:icon -->
       </div>
       <h3 class="text-light m-0">{{ data.title }}</h3>
       <Toggle />
