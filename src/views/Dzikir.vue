@@ -49,9 +49,13 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
         <tbody>
           <tr v-for="item in tampilCategory?.bait_bait" :key="item.id">
             <td class="col-11" :class="item.arab ? 'border-bottom' : ''">
-              <h1 class="m-0 py-1 text-end" style="line-height: 2 !important">
+              <h2
+                style="direction: rtl; unicode-bidi: bidi-override; line-height: 2 !important"
+                class="m-0 py-1"
+                align="justify"
+              >
                 {{ item.arab }}
-              </h1>
+              </h2>
             </td>
           </tr>
         </tbody>
