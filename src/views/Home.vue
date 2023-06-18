@@ -31,7 +31,12 @@ const router = useRouter()
               class="image bg-first-color-alt mx-auto rounded-circle d-flex justify-content-center align-items-center"
               style="width: 50px; height: 50px"
             >
-              <span class="opacity-75" style="font-size: 2.5rem">{{ item.image }}</span>
+              <!-- <span class="opacity-75" style="font-size: 2.5rem">{{ item.image }}</span> -->
+              <img
+                :src="item.image"
+                alt=""
+                style="width: 3.5rem !important; height: 3.5rem !important"
+              />
             </div>
             <span>{{ item.title }}</span>
           </div>

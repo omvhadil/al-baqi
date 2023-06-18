@@ -22,12 +22,15 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
 <template>
   <Header :title="kitab.arab">
     <template #menu>
-      <div v-if="jmlcategorydzikir > 1" class="d-flex bg-first-color-alt p-2 px-3 gap-2 w-100">
+      <div
+        v-if="jmlcategorydzikir > 1"
+        class="d-flex bg-gradient-first-color-alt p-2 px-3 gap-2 w-100"
+      >
         <button
           v-for="item in category?.dzikri"
           :key="item.id"
           @click="categoryNumber = item.id - 1"
-          class="btn bg-first-color-alt border-light w-100 p-1 text-white"
+          class="btn bg-gradient-first-color border-light w-100 p-1 text-white"
           type="button"
         >
           {{ item.title }}

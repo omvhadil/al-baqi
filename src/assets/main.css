@@ -12,6 +12,7 @@
   --first-color: hsl(var(--hue), 69%, 31%);
   --first-color-alt: hsl(var(--hue), 50%, 70%);
   --gradient-first-color: linear-gradient(to bottom, var(--first-color), hsl(var(--hue), 57%, 53%));
+  --gradient-first-color-alt: linear-gradient(to right, var(--first-color), hsl(var(--hue), 57%, 53%));
 }
 .bg-first-color{
   background-color: var(--first-color);
@@ -21,6 +22,9 @@
 }
 .bg-gradient-first-color{
   background-image: var(--gradient-first-color);
+}
+.bg-gradient-first-color-alt{
+  background-image: var(--gradient-first-color-alt);
 }
 body{
     font-family: 'Scheherazade New', serif !important;
