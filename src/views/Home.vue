@@ -29,9 +29,9 @@ const router = useRouter()
         <div class="col-3 position-relative">
           <div class="content text-center">
             <div
-              @click="router.push('majmu')"
+              @click="router.push('madad')"
               class="bg-gradient-first-color-alt cursor rounded-circle mx-auto d-grid justify-content-center align-items-center"
-              style="width: 60px; height: 60px"
+              style="width: 50px; height: 50px"
             >
               <!-- begin:icon -->
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
@@ -51,23 +51,24 @@ const router = useRouter()
         <div class="col-3 position-relative">
           <div class="content text-center">
             <div
-              @click="router.push('madad')"
+              @click="router.push('majmu')"
               class="bg-gradient-first-color-alt cursor rounded-circle mx-auto d-grid justify-content-center align-items-center"
-              style="width: 60px; height: 60px"
+              style="width: 50px; height: 50px"
             >
               <!-- begin:icon -->
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
                 <path fill="none" d="M0 0h24v24H0z"></path>
                 <path
                   fill="white"
-                  d="M5 8V20H19V8H5ZM5 6H19V4H5V6ZM20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22ZM7 10H11V14H7V10ZM7 16H17V18H7V16ZM13 11H17V13H13V11Z"
+                  d="M7 5V2C7 1.44772 7.44772 1 8 1H16C16.5523 1 17 1.44772 17 2V5H21C21.5523 5 22 5.44772 22 6V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V6C2 5.44772 2.44772 5 3 5H7ZM16 15H13V16H11V15H8V19H16V15ZM8 7V13H11V12H13V13H16V7H8ZM6 13V7H4V13H6ZM18 13H20V7H18V13ZM6 15H4V19H6V15ZM18 15V19H20V15H18ZM9 3V5H15V3H9Z"
                 ></path>
               </svg>
               <!-- end:icon -->
             </div>
-            <span>Khulasoh</span>
+            <span>Majmu'</span>
           </div>
         </div>
+        <!-- end:kitab Majmuk -->
       </div>
     </section>
     <!-- end:kitab-kitab  -->
