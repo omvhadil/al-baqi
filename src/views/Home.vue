@@ -22,14 +22,15 @@ const router = useRouter()
   <main class="ps-3 pe-3 mt-4">
     <!-- begin:kitab-kitab  -->
     <section class="section">
-      <h4 class="mb-3"><u>Kitab-kitab</u></h4>
+      <h4 class="m-0">Kitab-kitab</h4>
+      <hr class="mt-0 text-secondary" />
       <div class="row row-gap-3">
         <!-- begin:kitab Khulasoh -->
         <div class="col-3 position-relative">
           <div class="content text-center">
             <div
               @click="router.push('majmu')"
-              class="bg-warning cursor rounded-circle mx-auto d-grid justify-content-center align-items-center"
+              class="bg-gradient-first-color-alt cursor rounded-circle mx-auto d-grid justify-content-center align-items-center"
               style="width: 60px; height: 60px"
             >
               <!-- begin:icon -->
@@ -51,7 +52,7 @@ const router = useRouter()
           <div class="content text-center">
             <div
               @click="router.push('madad')"
-              class="bg-info cursor rounded-circle mx-auto d-grid justify-content-center align-items-center"
+              class="bg-gradient-first-color-alt cursor rounded-circle mx-auto d-grid justify-content-center align-items-center"
               style="width: 60px; height: 60px"
             >
               <!-- begin:icon -->
@@ -59,7 +60,7 @@ const router = useRouter()
                 <path fill="none" d="M0 0h24v24H0z"></path>
                 <path
                   fill="white"
-                  d="M21 4H7C5.89543 4 5 4.89543 5 6C5 7.10457 5.89543 8 7 8H21V21C21 21.5523 20.5523 22 20 22H7C4.79086 22 3 20.2091 3 18V6C3 3.79086 4.79086 2 7 2H20C20.5523 2 21 2.44772 21 3V4ZM5 18C5 19.1046 5.89543 20 7 20H19V10H7C6.27143 10 5.58835 9.80521 5 9.46487V18ZM20 7H7C6.44772 7 6 6.55228 6 6C6 5.44772 6.44772 5 7 5H20V7Z"
+                  d="M5 8V20H19V8H5ZM5 6H19V4H5V6ZM20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22ZM7 10H11V14H7V10ZM7 16H17V18H7V16ZM13 11H17V13H13V11Z"
                 ></path>
               </svg>
               <!-- end:icon -->
@@ -71,9 +72,77 @@ const router = useRouter()
     </section>
     <!-- end:kitab-kitab  -->
     <!-- begin:catatan  -->
-    <section class="section">
-      <h4 class="mb-4 mt-4"><u>Catatan</u></h4>
+    <section class="section mt-4 pb-4">
+      <h4 class="m-0">Catatan</h4>
+      <hr class="m-0 text-secondary" />
+      <div class="row gap-2">
+        <!-- begin:catatan 1 -->
+        <div class="col-12 mt-2">
+          <div class="card p-1 d-flex">
+            <div>
+              <span class="badge bg-secondary">Patokan / Kampung Arab</span>
+            </div>
+            <div class="mt-2">
+              <ul>
+                <li>Habib Hasan Bin Umar Al-Habsyi</li>
+                <li>Habib Alwy Bin Hasan Al-Habsyi</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end:catatan 1 -->
+        <!-- begin:catatan 2 -->
+        <div class="col-12 mt-2">
+          <div class="card p-1 d-flex">
+            <div>
+              <span class="badge bg-secondary">Brani Kulon</span>
+            </div>
+            <div class="mt-2">
+              <ul>
+                <li>Habib Husein Bin Hadi Al-Hamid</li>
+                <li>Habib Tholib Bin Husein Al-Hamid</li>
+                <li>Habib Idrus Bin Husein Al-Hamid</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end:catatan 2 -->
+        <!-- begin:catatan 3 -->
+        <div class="col-12 mt-2">
+          <div class="card p-1 d-flex">
+            <div>
+              <span class="badge bg-secondary">Genggong</span>
+            </div>
+            <div class="mt-2">
+              <ul>
+                <li>KH. Muhammad Hasan Genggong</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end:catatan 3 -->
+        <!-- begin:catatan 4 -->
+        <div class="col-12 mt-2">
+          <div class="card p-1 d-flex">
+            <div>
+              <span class="badge bg-secondary">Kalikajar</span>
+            </div>
+            <div class="mt-2">
+              <ul>
+                <li>KH. Muhammad Hasyim Minu</li>
+                <li>KH. Hasan Abdul Jalal Bin KH. Minu</li>
+                <li>NH. Hiddun</li>
+                <li>NH. Siti Maryam / NH. Minu</li>
+                <li>NH. Ummu Salamah Bin KH. Minu</li>
+              </ul>
+              <ul>
+                <li>KH. Nuruddin Musyiri</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end:catatan 4 -->
+      </div>
     </section>
-    <!-- end:catatan  -->
   </main>
 </template>
