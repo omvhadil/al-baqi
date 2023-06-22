@@ -7988,3 +7988,164 @@ export const data = [
   //   ]
   // },
 ]
+
+export const dataKyai = [
+  {
+    id: '1',
+    daerah: 'Patokan - Kraksaan - Probolinggo',
+    ulama: [
+      {
+        id: '1',
+        nama_ulama: 'Habib Hasan Bin Umar Al-Habsyi'
+      },
+      {
+        id: '2',
+        nama_ulama: 'Habib Alwi bin Hasan Al-Habsyi'
+      },
+      {
+        id: '3',
+        nama_ulama: 'Habib Hasyim Al-Habsyi'
+      },
+      {
+        id: '4',
+        nama_ulama: 'Habib Hamid bin Syaikh Al-Habsyi'
+      }
+    ]
+  },
+  {
+    id: '2',
+    daerah: 'Brani Kulon - Maron - Probolinggo',
+    ulama: [
+      {
+        id: '1',
+        nama_ulama: 'Habib Husein bin Hadi Al-Hamid'
+      },
+      {
+        id: '2',
+        nama_ulama: 'Habib Tholib bin Husein Al-Hamid'
+      },
+      {
+        id: '3',
+        nama_ulama: 'Habib Idrus bin Husya Al-Hamid'
+      },
+    ]
+  },
+  {
+    id: '3',
+    daerah: 'Genggong - Pajarakan - Probolinggo',
+    ulama: [
+      {
+        id: '1',
+        nama_ulama: 'KH. Zainul Abidin'
+      },
+      {
+        id: '2',
+        nama_ulama: 'KH. Muhammad Hasan Genggong'
+      },
+      {
+        id: '3',
+        nama_ulama: 'Hasan Saifourrizal'
+      },
+    ]
+  },
+  {
+    id: '4',
+    daerah: 'Kalikajar Kulon - Paiton - Probolinggo',
+    ulama: [
+      {
+        id: '1',
+        nama_ulama: 'KH. Muhammad Hasyim Minu'
+      },
+      {
+        id: '2',
+        nama_ulama: 'KH. Hasan Abdul Jalal bin KH Minu'
+      },
+      {
+        id: '3',
+        nama_ulama: 'NH. Hiddun'
+      },
+      {
+        id: '4',
+        nama_ulama: 'NH. Siti Maryam / NH. Minu'
+      },
+      {
+        id: '5',
+        nama_ulama: 'NH. Ummu Salamah bin KH Minu'
+      },
+      {
+        id: '6',
+        nama_ulama: 'KH. Nuruddin Musyiri'
+      },
+      {
+        id: '7',
+        nama_ulama: 'NH. Umi Sa`adah'
+      },
+    ]
+  },
+  {
+    id: '5',
+    daerah: 'Karanganyar - Paiton - Probolinggo',
+    ulama: [
+      {
+        id: '1',
+        nama_ulama: 'KH. Zaini Mun`im'
+      },
+      {
+        id: '2',
+        nama_ulama: 'KH. Moh. Hasyim Zaini'
+      },
+      {
+        id: '3',
+        nama_ulama: 'KH. Abd. Wahid Zaini'
+      },
+      {
+        id: '4',
+        nama_ulama: 'KH. Hasan Abdul Wafi'
+      },
+      {
+        id: '5',
+        nama_ulama: 'KH. Abdul Haq Zaini'
+      },
+      {
+        id: '6',
+        nama_ulama: 'KH. Nur Chotim Zaini'
+      },
+      {
+        id: '7',
+        nama_ulama: 'KH. Faqih Zawawi'
+      },
+      {
+        id: '8',
+        nama_ulama: 'KH. Muhammad Hefni Mahfudz'
+      },
+    ]
+  },
+  {
+    id: '6',
+    daerah: 'Alastengah - Besuk - Probolinggo',
+    ulama: [
+      {
+        id: '1',
+        nama_ulama: 'Habib Ahmad bin Abdurrahman Ba`aly'
+      },
+      {
+        id: '2',
+        nama_ulama: 'Habib Abdurrahman bin Alwy Ba`aly'
+      },
+    ]
+  },
+  {
+    id: '7',
+    daerah: 'Alassumur Kulon - Kraksaan - Probolinggo',
+    ulama: [
+      {
+        id: '1',
+        nama_ulama: 'KH. Abdul Mughni'
+      },
+      {
+        id: '2',
+        nama_ulama: 'KH. Abdullah Mughni'
+      },
+    ]
+  },
+]

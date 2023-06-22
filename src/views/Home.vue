@@ -2,6 +2,15 @@
 <script setup>
 import { useRouter } from 'vue-router'
 import Toggle from '../components/Toggle.vue'
+import { dataKyai } from '../constans/index'
+
+const ulamaPatokan = dataKyai.find((item) => item.id == 1)
+const ulamaBrani = dataKyai.find((item) => item.id == 2)
+const ulamaGenggong = dataKyai.find((item) => item.id == 3)
+const ulamaKalikajar = dataKyai.find((item) => item.id == 4)
+const ulamaKaranganyar = dataKyai.find((item) => item.id == 5)
+const ulamaAlastengah = dataKyai.find((item) => item.id == 6)
+const ulamaAlassumur = dataKyai.find((item) => item.id == 7)
 const router = useRouter()
 </script>
 <template>
@@ -76,128 +85,179 @@ const router = useRouter()
     <section class="section mt-4 pb-4">
       <h4 class="m-0">Catatan</h4>
       <hr class="m-0 text-secondary" />
-      <div class="row gap-2">
-        <!-- begin:Kampung Arab/patokan -->
-        <div class="col-12 mt-2">
-          <div class="card p-1 d-flex">
-            <div>
-              <span class="badge bg-secondary">Patokan - Kraksaan - Probolinggo</span>
+      <div class="row mt-3">
+        <div class="accordion" id="accordionExample">
+          <!-- patokan -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Patokan - Kraksaan - Probolinggo
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li v-for="item in ulamaPatokan.ulama" :key="item.id">{{ item.nama_ulama }}</li>
+                </ul>
+              </div>
             </div>
-            <div class="mt-2">
-              <ul>
-                <li>Habib Hasan Bin Umar Al-Habsyi</li>
-                <li>Habib Alwy Bin Hasan Al-Habsyi</li>
-                <li>Habib Hasyim Al-Habsyi</li>
-                <li>Habib Hamid bin Syaikh Al-Habsyi</li>
-              </ul>
+          </div>
+          <!-- brani -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Brani Kulon - Maron - Probolinggo
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <li v-for="item in ulamaBrani.ulama" :key="item.id">{{ item.nama_ulama }}</li>
+              </div>
+            </div>
+          </div>
+          <!-- genggong  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Genggong - Pajarakan - Probolinggo
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <li v-for="item in ulamaGenggong.ulama" :key="item.id">{{ item.nama_ulama }}</li>
+              </div>
+            </div>
+          </div>
+          <!-- kalikajar -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsefour"
+                aria-expanded="false"
+                aria-controls="collapsefour"
+              >
+                Kalikajar - Paiton - Probolinggo
+              </button>
+            </h2>
+            <div
+              id="collapsefour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <li v-for="item in ulamaKalikajar.ulama" :key="item.id">{{ item.nama_ulama }}</li>
+              </div>
+            </div>
+          </div>
+          <!-- karanganyar  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsefive"
+                aria-expanded="false"
+                aria-controls="collapsefive"
+              >
+                Karanganyar - Paiton - Probolinggo
+              </button>
+            </h2>
+            <div
+              id="collapsefive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <li v-for="item in ulamaKaranganyar.ulama" :key="item.id">{{ item.nama_ulama }}</li>
+              </div>
+            </div>
+          </div>
+          <!-- alastengah -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsesix"
+                aria-expanded="false"
+                aria-controls="collapsesix"
+              >
+                Alastengah - Besuk - Probolinggo
+              </button>
+            </h2>
+            <div
+              id="collapsesix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <li v-for="item in ulamaAlastengah.ulama" :key="item.id">{{ item.nama_ulama }}</li>
+              </div>
+            </div>
+          </div>
+          <!-- alassumur -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseseven"
+                aria-expanded="false"
+                aria-controls="collapseseven"
+              >
+                Alassumur Kulon - Kraksaan - Probolinggo
+              </button>
+            </h2>
+            <div
+              id="collapseseven"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <li v-for="item in ulamaAlassumur.ulama" :key="item.id">{{ item.nama_ulama }}</li>
+              </div>
             </div>
           </div>
         </div>
-        <!-- end:Kampung Arab/patokan -->
-        <!-- begin:Brani Kulon -->
-        <div class="col-12 mt-2">
-          <div class="card p-1 d-flex">
-            <div>
-              <span class="badge bg-secondary">Brani Kulon - Maron - Probolinggo</span>
-            </div>
-            <div class="mt-2">
-              <ul>
-                <li>Habib Husein Bin Hadi Al-Hamid</li>
-                <li>Habib Tholib Bin Husein Al-Hamid</li>
-                <li>Habib Idrus Bin Husya Al-Hamid</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- end:Brani Kulon -->
-        <!-- begin:Genggong -->
-        <div class="col-12 mt-2">
-          <div class="card p-1 d-flex">
-            <div>
-              <span class="badge bg-secondary">Genggong - Pajarakan - Probolinggo</span>
-            </div>
-            <div class="mt-2">
-              <ul>
-                <li>KH. Zainul Abidin</li>
-                <li>KH. Muhammad Hasan Genggong</li>
-                <li>KH. Hasan Saifourridzal</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- end:Genggong -->
-        <!-- begin:Kalikajar -->
-        <div class="col-12 mt-2">
-          <div class="card p-1 d-flex">
-            <div>
-              <span class="badge bg-secondary">Kalikajar Kulon - Paiton - Probolinggo</span>
-            </div>
-            <div class="mt-2">
-              <ul>
-                <li>KH. Muhammad Hasyim Minu</li>
-                <li>KH. Hasan Abdul Jalal Bin KH. Minu</li>
-                <li>NH. Hiddun</li>
-                <li>NH. Siti Maryam / NH. Minu</li>
-                <li>NH. Ummu Salamah Bin KH. Minu</li>
-              </ul>
-              <ul>
-                <li>KH. Nuruddin Musyiri</li>
-                <li>NH. Umi Sa'adah</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- end:Kalikajar -->
-        <!-- begin:Karanganyar -->
-        <div class="col-12 mt-2">
-          <div class="card p-1 d-flex">
-            <div>
-              <span class="badge bg-secondary">Karanganyar - Paiton - Probolinggo</span>
-            </div>
-            <div class="mt-2">
-              <ul>
-                <li>KH. Zaini Abdul Mun'im</li>
-                <li>KH. Moh. Hasyim Zaini</li>
-                <li>KH. Abd. Wahid Zaini</li>
-                <li>KH. Hsan Abdul Wafi</li>
-                <li>KH. Abdul Haq Zaini</li>
-                <li>KH. Nur Chotim Zaini</li>
-                <li>KH. Faqih Zawawi</li>
-                <li>KH. Muhammad Hefni Mahfudz</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- end:Karanganyar -->
-        <!-- begin:Alastengah -->
-        <div class="col-12 mt-2">
-          <div class="card p-1 d-flex">
-            <div>
-              <span class="badge bg-secondary">Alastengah - Besuk - Probolinggo</span>
-            </div>
-            <div class="mt-2">
-              <ul>
-                <li>Habib Ahmad bin Abdurrahman Ba'aly</li>
-                <li>Habib Abdurrahman bin Alwy Ba'aly</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- end:Alastengah -->
-        <!-- begin:Alassumur -->
-        <div class="col-12 mt-2">
-          <div class="card p-1 d-flex">
-            <div>
-              <span class="badge bg-secondary">Alassumur Kulon - Kraksaan - Probolinggo</span>
-            </div>
-            <div class="mt-2">
-              <ul>
-                <li>KH. Abdullah Mighni</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- end:Alassumur -->
       </div>
     </section>
   </main>
