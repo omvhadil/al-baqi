@@ -5554,7 +5554,7 @@ export const data = [
       {
         id: 3,
         slug: 'istighosah',
-        title: 'Istoghosah',
+        title: 'Istighosah',
         arab: '',
         latin: '',
         dzikri: [

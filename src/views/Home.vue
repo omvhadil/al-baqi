@@ -77,56 +77,60 @@ const router = useRouter()
       <h4 class="m-0">Catatan</h4>
       <hr class="m-0 text-secondary" />
       <div class="row gap-2">
-        <!-- begin:catatan 1 -->
+        <!-- begin:Kampung Arab/patokan -->
         <div class="col-12 mt-2">
           <div class="card p-1 d-flex">
             <div>
-              <span class="badge bg-secondary">Patokan / Kampung Arab</span>
+              <span class="badge bg-secondary">Patokan - Kraksaan - Probolinggo</span>
             </div>
             <div class="mt-2">
               <ul>
                 <li>Habib Hasan Bin Umar Al-Habsyi</li>
                 <li>Habib Alwy Bin Hasan Al-Habsyi</li>
+                <li>Habib Hasyim Al-Habsyi</li>
+                <li>Habib Hamid bin Syaikh Al-Habsyi</li>
               </ul>
             </div>
           </div>
         </div>
-        <!-- end:catatan 1 -->
-        <!-- begin:catatan 2 -->
+        <!-- end:Kampung Arab/patokan -->
+        <!-- begin:Brani Kulon -->
         <div class="col-12 mt-2">
           <div class="card p-1 d-flex">
             <div>
-              <span class="badge bg-secondary">Brani Kulon</span>
+              <span class="badge bg-secondary">Brani Kulon - Maron - Probolinggo</span>
             </div>
             <div class="mt-2">
               <ul>
                 <li>Habib Husein Bin Hadi Al-Hamid</li>
                 <li>Habib Tholib Bin Husein Al-Hamid</li>
-                <li>Habib Idrus Bin Husein Al-Hamid</li>
+                <li>Habib Idrus Bin Husya Al-Hamid</li>
               </ul>
             </div>
           </div>
         </div>
-        <!-- end:catatan 2 -->
-        <!-- begin:catatan 3 -->
+        <!-- end:Brani Kulon -->
+        <!-- begin:Genggong -->
         <div class="col-12 mt-2">
           <div class="card p-1 d-flex">
             <div>
-              <span class="badge bg-secondary">Genggong</span>
+              <span class="badge bg-secondary">Genggong - Pajarakan - Probolinggo</span>
             </div>
             <div class="mt-2">
               <ul>
+                <li>KH. Zainul Abidin</li>
                 <li>KH. Muhammad Hasan Genggong</li>
+                <li>KH. Hasan Saifourridzal</li>
               </ul>
             </div>
           </div>
         </div>
-        <!-- end:catatan 3 -->
-        <!-- begin:catatan 4 -->
+        <!-- end:Genggong -->
+        <!-- begin:Kalikajar -->
         <div class="col-12 mt-2">
           <div class="card p-1 d-flex">
             <div>
-              <span class="badge bg-secondary">Kalikajar</span>
+              <span class="badge bg-secondary">Kalikajar Kulon - Paiton - Probolinggo</span>
             </div>
             <div class="mt-2">
               <ul>
@@ -138,11 +142,62 @@ const router = useRouter()
               </ul>
               <ul>
                 <li>KH. Nuruddin Musyiri</li>
+                <li>NH. Umi Sa'adah</li>
               </ul>
             </div>
           </div>
         </div>
-        <!-- end:catatan 4 -->
+        <!-- end:Kalikajar -->
+        <!-- begin:Karanganyar -->
+        <div class="col-12 mt-2">
+          <div class="card p-1 d-flex">
+            <div>
+              <span class="badge bg-secondary">Karanganyar - Paiton - Probolinggo</span>
+            </div>
+            <div class="mt-2">
+              <ul>
+                <li>KH. Zaini Abdul Mun'im</li>
+                <li>KH. Moh. Hasyim Zaini</li>
+                <li>KH. Abd. Wahid Zaini</li>
+                <li>KH. Hsan Abdul Wafi</li>
+                <li>KH. Abdul Haq Zaini</li>
+                <li>KH. Nur Chotim Zaini</li>
+                <li>KH. Faqih Zawawi</li>
+                <li>KH. Muhammad Hefni Mahfudz</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end:Karanganyar -->
+        <!-- begin:Alastengah -->
+        <div class="col-12 mt-2">
+          <div class="card p-1 d-flex">
+            <div>
+              <span class="badge bg-secondary">Alastengah - Besuk - Probolinggo</span>
+            </div>
+            <div class="mt-2">
+              <ul>
+                <li>Habib Ahmad bin Abdurrahman Ba'aly</li>
+                <li>Habib Abdurrahman bin Alwy Ba'aly</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end:Alastengah -->
+        <!-- begin:Alassumur -->
+        <div class="col-12 mt-2">
+          <div class="card p-1 d-flex">
+            <div>
+              <span class="badge bg-secondary">Alassumur Kulon - Kraksaan - Probolinggo</span>
+            </div>
+            <div class="mt-2">
+              <ul>
+                <li>KH. Abdullah Mighni</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end:Alassumur -->
       </div>
     </section>
   </main>
