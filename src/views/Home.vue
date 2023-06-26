@@ -290,15 +290,15 @@ const router = useRouter()
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapseseven"
+                data-bs-target="#collapse8"
                 aria-expanded="false"
-                aria-controls="collapseseven"
+                aria-controls="collapse8"
               >
                 Bhinor - Paiton - Probolinggo
               </button>
             </h2>
             <div
-              id="collapseseven"
+              id="collapse8"
               class="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
@@ -314,15 +314,15 @@ const router = useRouter()
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapseseven"
+                data-bs-target="#collapse9"
                 aria-expanded="false"
-                aria-controls="collapseseven"
+                aria-controls="collapse9"
               >
                 Besuki - Besuki - Situbondo
               </button>
             </h2>
             <div
-              id="collapseseven"
+              id="collapse9"
               class="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
@@ -338,15 +338,15 @@ const router = useRouter()
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapseseven"
+                data-bs-target="#collapse10"
                 aria-expanded="false"
-                aria-controls="collapseseven"
+                aria-controls="collapse10"
               >
                 Pecaron - Pasir Putih - Situbondo
               </button>
             </h2>
             <div
-              id="collapseseven"
+              id="collapse10"
               class="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
