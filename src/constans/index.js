@@ -8148,4 +8148,66 @@ export const dataKyai = [
       },
     ]
   },
+  {
+    id: '8',
+    daerah: 'Bhinor - Paiton - Probolinggo',
+    ulama: [
+      {
+        id: '1',
+        nama_ulama: 'Kyai. Qoiduddin (Kakek KH. Hasan Genggong)'
+      },
+      {
+        id: '2',
+        nama_ulama: 'Nyai. Siti Maufirah (Istri Kyai Qoiduddin)'
+      },
+      {
+        id: '3',
+        nama_ulama: 'Sayyid Muh. Abdullah Shirathal Mustaqim (Bujuk Ongkolan)'
+      },
+      {
+        id: '4',
+        nama_ulama: 'Syekh Muh. Parseh'
+      },
+      {
+        id: '5',
+        nama_ulama: 'Nyai. Rus'
+      },
+    ]
+  },
+  {
+    id: '9',
+    daerah: 'Besuki - Besuki - Situbondo',
+    ulama: [
+      {
+        id: '1',
+        nama_ulama: 'KRB. Kasim Wirodipuro (Kyai Pate Alos - Pembabat Tanah Besuki)'
+      },
+      {
+        id: '2',
+        nama_ulama: 'Nyai. Siti Maryam(Istri Kyai Pate Alos)'
+      },
+      {
+        id: '3',
+        nama_ulama: 'KR. Sahiruddin Wiro Astro(Putra Kyai Pate Alos)'
+      },
+      {
+        id: '4',
+        nama_ulama: 'Nyai. Saahiruddin(Istri Kyai Sahiruddin)'
+      },
+    ]
+  },
+  {
+    id: '10',
+    daerah: 'Pecaron - Pasir Putih - Situbondo',
+    ulama: [
+      {
+        id: '1',
+        nama_ulama: 'Syekh Maulana Ishaq (Ayah Sunan Giri)'
+      },
+      {
+        id: '2',
+        nama_ulama: 'Mbah Syekh Norhayyin'
+      },
+    ]
+  },
 ]

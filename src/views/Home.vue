@@ -11,6 +11,10 @@ const ulamaKalikajar = dataKyai.find((item) => item.id == 4)
 const ulamaKaranganyar = dataKyai.find((item) => item.id == 5)
 const ulamaAlastengah = dataKyai.find((item) => item.id == 6)
 const ulamaAlassumur = dataKyai.find((item) => item.id == 7)
+const ulamaBhinor = dataKyai.find((item) => item.id == 8)
+const ulamaBesuki = dataKyai.find((item) => item.id == 9)
+const ulamaPecaron = dataKyai.find((item) => item.id == 10)
+
 const router = useRouter()
 </script>
 <template>
@@ -78,6 +82,28 @@ const router = useRouter()
           </div>
         </div>
         <!-- end:kitab Majmuk -->
+        <!-- begin:kitab Tahlil -->
+        <div class="col-3 position-relative">
+          <div class="content text-center">
+            <div
+              @click="router.push('/majmu/tahlil-kubur')"
+              class="bg-gradient-first-color-alt cursor rounded-circle mx-auto d-grid justify-content-center align-items-center"
+              style="width: 50px; height: 50px"
+            >
+              <!-- begin:icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path
+                  fill="white"
+                  d="M6 12H18V8H14V4H6V12ZM4 12V2.9954C4 2.44565 4.44484 2 4.99558 2H15L19.9997 7L20 12H22V14H2V12H4ZM3 16H5V22H3V16ZM19 16H21V22H19V16ZM15 16H17V22H15V16ZM11 16H13V22H11V16ZM7 16H9V22H7V16Z"
+                ></path>
+              </svg>
+              <!-- end:icon -->
+            </div>
+            <span>Tahlil</span>
+          </div>
+        </div>
+        <!-- end:kitab Tahlil -->
       </div>
     </section>
     <!-- end:kitab-kitab  -->
@@ -254,6 +280,78 @@ const router = useRouter()
             >
               <div class="accordion-body">
                 <li v-for="item in ulamaAlassumur.ulama" :key="item.id">{{ item.nama_ulama }}</li>
+              </div>
+            </div>
+          </div>
+          <!-- Bhinor -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseseven"
+                aria-expanded="false"
+                aria-controls="collapseseven"
+              >
+                Bhinor - Paiton - Probolinggo
+              </button>
+            </h2>
+            <div
+              id="collapseseven"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <li v-for="item in ulamaBhinor.ulama" :key="item.id">{{ item.nama_ulama }}</li>
+              </div>
+            </div>
+          </div>
+          <!-- Besuki -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseseven"
+                aria-expanded="false"
+                aria-controls="collapseseven"
+              >
+                Besuki - Besuki - Situbondo
+              </button>
+            </h2>
+            <div
+              id="collapseseven"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <li v-for="item in ulamaBesuki.ulama" :key="item.id">{{ item.nama_ulama }}</li>
+              </div>
+            </div>
+          </div>
+          <!-- Pecaron -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseseven"
+                aria-expanded="false"
+                aria-controls="collapseseven"
+              >
+                Pecaron - Pasir Putih - Situbondo
+              </button>
+            </h2>
+            <div
+              id="collapseseven"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <li v-for="item in ulamaPecaron.ulama" :key="item.id">{{ item.nama_ulama }}</li>
               </div>
             </div>
           </div>
