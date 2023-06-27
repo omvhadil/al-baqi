@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import { useRouter } from 'vue-router'
-import Toggle from '../components/Toggle.vue'
+// import Toggle from '../components/Toggle.vue'
 
 const router = useRouter()
 const data = defineProps({
@@ -29,7 +29,7 @@ const data = defineProps({
         <!-- end:icon -->
       </div>
       <h3 class="text-light m-0">{{ data.title }}</h3>
-      <Toggle />
+      <!-- <Toggle /> -->
     </div>
     <slot name="menu"> </slot>
   </nav>

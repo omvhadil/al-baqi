@@ -17,7 +17,12 @@ const router = createRouter({
       path: '/:kitab/:category',
       name: 'dzikir',
       component: () => import('../views/Dzikir.vue')
-    }
+    },
+    {
+      path: '/new-home',
+      name: 'new-home',
+      component: () => import('../views/New-Home.vue')
+    },
   ]
 })
 
