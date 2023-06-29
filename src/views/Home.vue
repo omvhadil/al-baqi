@@ -24,7 +24,7 @@ const router = useRouter()
     </div>
   </header>
   <section class="section">
-    <div class="row mt-4 p-0">
+    <div class="row mt-4 g-0">
       <div class="col-9 p-0">
         <div class="text-center mt-4">
           <h1 class="nav_logo font-aref text-decoration-none text-success" style="font-size: 5rem">
@@ -39,7 +39,7 @@ const router = useRouter()
       </div>
       <!-- menu -->
       <div class="col-3 p-0">
-        <div class="menu rounded-start-5 bg-success p-4 d-grid justify-content-center gap-4">
+        <div class="menu rounded-start-5 bg-success py-4 d-grid justify-content-center gap-4">
           <div @click="router.push('madad')" class="menu-item text-center">
             <div>
               <div
