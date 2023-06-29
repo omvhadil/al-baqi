@@ -36,7 +36,19 @@
       ></button>
     </div>
     <div class="offcanvas-body">
-      <div>Masih belum selesai</div>
+      <div class="row">
+        <div class="col-12">
+          <div class="form-check form-switch d-flex justify-content-between p-0">
+            <label class="form-check-label fs-5" for="flexSwitchCheckChecked">Dark Mode</label>
+            <input
+              class="form-check-input fs-4"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckChecked"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

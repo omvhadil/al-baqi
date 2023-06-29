@@ -24,7 +24,7 @@ const router = useRouter()
     </div>
   </header>
   <section class="section">
-    <div class="row mt-4">
+    <div class="row mt-4 p-0">
       <div class="col-9 p-0">
         <div class="text-center mt-4">
           <h1 class="nav_logo font-aref text-decoration-none text-success" style="font-size: 5rem">
@@ -92,26 +92,12 @@ const router = useRouter()
       </div>
     </div>
   </section>
-  <!-- <header
-    class="header position-ralative bg-gradient-first-color rounded-bottom-5 border-bottom border-5 border-white shadow-sm d-flex align-items-center justify-content-center"
-    style="width: 100%; height: 300px"
-  >
-    <div class="position-absolute" style="top: 1rem; right: 1.5rem">
-      <Toggle />
-    </div>
-    <div class="text-center">
-      <h1 class="nav_logo font-aref text-decoration-none text-white" style="font-size: 5rem">
-        الْبَاقِيْ
-      </h1>
-      <p class="text-white" style="font-size: 2rem">Al-Baqi'</p>
-    </div>
-  </header> -->
   <main class="ps-3 pe-3 mt-4">
     <!-- begin:catatan  -->
     <section class="section mt-4 pb-4">
       <h4 class="m-0">Tawassul Maqbaroh</h4>
       <hr class="m-0 text-secondary" />
-      <div class="row mt-3 mb-4">
+      <div class="row mt-3 mb-4 p-0">
         <div class="accordion" id="accordionExample">
           <!-- patokan -->
           <div class="accordion-item">
