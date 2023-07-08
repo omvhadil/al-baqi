@@ -4648,7 +4648,7 @@ export const data = [
               },
               {
                 id: 84,
-                arab: 'Doa Surat Yasin',
+                arab: '======= دعاء سوراة يس =======',
                 latin: '',
                 arti: '',
               },
@@ -5455,7 +5455,7 @@ export const data = [
               },
               {
                 id: 84,
-                arab: 'Doa Surat Yasin',
+                arab: '======= دعاء سوراة يس =======',
                 latin: '',
                 arti: '',
               },
@@ -5807,7 +5807,7 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: 'Niat Wudhu',
+                arab: '========= نياة وضوء =========',
                 latin: '',
                 arti: ''
               },
@@ -5819,7 +5819,7 @@ export const data = [
               },
               {
                 id: 3,
-                arab: 'Doa Sesudah Wudhu',
+                arab: '======== دعاء وضوء ========',
                 latin: '',
                 arti: ''
               },
