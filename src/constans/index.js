@@ -4,7 +4,7 @@ export const data = [
     slug: 'madad',
     image: '../../src/assets/images/ventor-1.png',
     title: 'Khulasoh',
-    arab: 'الْخُلاَصَةُ الْمَدَدًا النَّبَوِي',
+    arab: 'الْخُلاَصَةُ',
     latin: 'Khulashotul Madadan Nabawi',
     category: [
       {
@@ -72,7 +72,7 @@ export const data = [
               },
               {
                 id: 9,
-                arab: 'Doa setelah sholat fardhu',
+                arab: ' ===== دعاء ستلاه صلاة =====',
                 latin: '',
                 arti: ''
               },
@@ -84,12 +84,6 @@ export const data = [
               },
               {
                 id: 11,
-                arab: 'lalu berdoa sesuai degan hajatnya',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 12,
                 arab: 'اَللّهُمَّ اَخْرِجْ مِنْ قَلْبِيْ كُلَّ قَدْرٍ لِلدُّنْيَا وَكُلَّ مَحَلٍّ لِلْخَلْقِ يَمِيْلُ بِى اِلَى مَعْصِيَتِكَ اَوْ يُشْغِلُنِى عَنْ طَاعَتِكَ اَوْ يَحُوْلُ بَنِي وَبَيْنَ التَّحَقُّقِ بِمَعْرِفَتِكَ الْخَاصَّةِ وَمَحَبَّتِكَ الْخَالِصَةِ ، وَصَلَّى اللّهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ وَالْحَمْدُلِلّهِ رَبِّ الْعَالَمِيْنَ',
                 latin: '',
                 arti: ''
@@ -792,7 +786,7 @@ export const data = [
               },
               {
                 id: 84,
-                arab: 'Doa Surat Yasin',
+                arab: ' =======  دعاء سوراة يس =======',
                 latin: '',
                 arti: '',
               },
@@ -1414,7 +1408,7 @@ export const data = [
               },
               {
                 id: 97,
-                arab: 'Doa Surat Al-Waqiah',
+                arab: ' ======  شدعاء سوراة واقعة ======',
                 latin: '',
                 arti: ''
               },
@@ -2148,7 +2142,7 @@ export const data = [
               },
               {
                 id: 97,
-                arab: 'Doa Surat Al-Waqiah',
+                arab: ' ======  شدعاء سوراة واقعة ======',
                 latin: '',
                 arti: ''
               },
@@ -2855,7 +2849,7 @@ export const data = [
               },
               {
                 id: 84,
-                arab: 'Doa Surat Yasin',
+                arab: ' =======  دعاء سوراة يس =======',
                 latin: '',
                 arti: '',
               },

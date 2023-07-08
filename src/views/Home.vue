@@ -4,17 +4,6 @@ import { useRouter } from 'vue-router'
 import Toggle from '../components/Toggle.vue'
 import { dataKyai } from '../constans/index'
 
-const ulamaPatokan = dataKyai.find((item) => item.id == 1)
-const ulamaBrani = dataKyai.find((item) => item.id == 2)
-const ulamaGenggong = dataKyai.find((item) => item.id == 3)
-const ulamaKalikajar = dataKyai.find((item) => item.id == 4)
-const ulamaKaranganyar = dataKyai.find((item) => item.id == 5)
-const ulamaAlastengah = dataKyai.find((item) => item.id == 6)
-const ulamaAlassumur = dataKyai.find((item) => item.id == 7)
-const ulamaBhinor = dataKyai.find((item) => item.id == 8)
-const ulamaBesuki = dataKyai.find((item) => item.id == 9)
-const ulamaPecaron = dataKyai.find((item) => item.id == 10)
-
 const router = useRouter()
 </script>
 <template>
@@ -100,244 +89,28 @@ const router = useRouter()
       <div class="row mt-3 mb-4 p-0">
         <div class="accordion" id="accordionExample">
           <!-- patokan -->
-          <div class="accordion-item">
+          <div v-for="kyai in dataKyai" :key="kyai.id" class="accordion-item">
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed bg-success-subtle text-success-emphasis"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
+                :data-bs-target="'#collapse' + kyai.id"
                 aria-expanded="false"
-                aria-controls="collapseOne"
+                :aria-controls="'collapse' + kyai.id"
               >
-                Patokan - Kraksaan - Probolinggo
+                {{ kyai.daerah }}
               </button>
             </h2>
             <div
-              id="collapseOne"
+              :id="'collapse' + kyai.id"
               class="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
                 <ul>
-                  <li v-for="item in ulamaPatokan.ulama" :key="item.id">{{ item.nama_ulama }}</li>
+                  <li v-for="item in kyai.ulama" :key="item.id">{{ item.nama_ulama }}</li>
                 </ul>
-              </div>
-            </div>
-          </div>
-          <!-- brani -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed bg-success-subtle text-success-emphasis"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                Brani Kulon - Maron - Probolinggo
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <li v-for="item in ulamaBrani.ulama" :key="item.id">{{ item.nama_ulama }}</li>
-              </div>
-            </div>
-          </div>
-          <!-- genggong  -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed bg-success-subtle text-success-emphasis"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Genggong - Pajarakan - Probolinggo
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <li v-for="item in ulamaGenggong.ulama" :key="item.id">{{ item.nama_ulama }}</li>
-              </div>
-            </div>
-          </div>
-          <!-- kalikajar -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed bg-success-subtle text-success-emphasis"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsefour"
-                aria-expanded="false"
-                aria-controls="collapsefour"
-              >
-                Kalikajar - Paiton - Probolinggo
-              </button>
-            </h2>
-            <div
-              id="collapsefour"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <li v-for="item in ulamaKalikajar.ulama" :key="item.id">{{ item.nama_ulama }}</li>
-              </div>
-            </div>
-          </div>
-          <!-- karanganyar  -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed bg-success-subtle text-success-emphasis"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsefive"
-                aria-expanded="false"
-                aria-controls="collapsefive"
-              >
-                Karanganyar - Paiton - Probolinggo
-              </button>
-            </h2>
-            <div
-              id="collapsefive"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <li v-for="item in ulamaKaranganyar.ulama" :key="item.id">{{ item.nama_ulama }}</li>
-              </div>
-            </div>
-          </div>
-          <!-- alastengah -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed bg-success-subtle text-success-emphasis"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsesix"
-                aria-expanded="false"
-                aria-controls="collapsesix"
-              >
-                Alastengah - Besuk - Probolinggo
-              </button>
-            </h2>
-            <div
-              id="collapsesix"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <li v-for="item in ulamaAlastengah.ulama" :key="item.id">{{ item.nama_ulama }}</li>
-              </div>
-            </div>
-          </div>
-          <!-- alassumur -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed bg-success-subtle text-success-emphasis"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseseven"
-                aria-expanded="false"
-                aria-controls="collapseseven"
-              >
-                Alassumur Kulon - Kraksaan - Probolinggo
-              </button>
-            </h2>
-            <div
-              id="collapseseven"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <li v-for="item in ulamaAlassumur.ulama" :key="item.id">{{ item.nama_ulama }}</li>
-              </div>
-            </div>
-          </div>
-          <!-- Bhinor -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed bg-success-subtle text-success-emphasis"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse8"
-                aria-expanded="false"
-                aria-controls="collapse8"
-              >
-                Bhinor - Paiton - Probolinggo
-              </button>
-            </h2>
-            <div
-              id="collapse8"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <li v-for="item in ulamaBhinor.ulama" :key="item.id">{{ item.nama_ulama }}</li>
-              </div>
-            </div>
-          </div>
-          <!-- Besuki -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed bg-success-subtle text-success-emphasis"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse9"
-                aria-expanded="false"
-                aria-controls="collapse9"
-              >
-                Besuki - Besuki - Situbondo
-              </button>
-            </h2>
-            <div
-              id="collapse9"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <li v-for="item in ulamaBesuki.ulama" :key="item.id">{{ item.nama_ulama }}</li>
-              </div>
-            </div>
-          </div>
-          <!-- Pecaron -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed bg-success-subtle text-success-emphasis"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse10"
-                aria-expanded="false"
-                aria-controls="collapse10"
-              >
-                Pecaron - Pasir Putih - Situbondo
-              </button>
-            </h2>
-            <div
-              id="collapse10"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <li v-for="item in ulamaPecaron.ulama" :key="item.id">{{ item.nama_ulama }}</li>
               </div>
             </div>
           </div>
