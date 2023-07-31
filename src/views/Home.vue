@@ -17,9 +17,9 @@ const router = useRouter()
       <div class="col-9 p-0">
         <div class="text-center mt-4">
           <h1 class="nav_logo font-aref text-decoration-none text-success" style="font-size: 5rem">
-            الْبَاقِيْ
+            الْقَيُّوْمُ
           </h1>
-          <p class="text-success" style="font-size: 2rem">Al-Baqi'</p>
+          <p class="text-success" style="font-size: 2rem">Maha Mandiri</p>
 
           <div class="mt-5">
             <span class="text-secondary">&#169; Alabim 2023. All right reserved</span>
@@ -28,7 +28,9 @@ const router = useRouter()
       </div>
       <!-- menu -->
       <div class="col-3 p-0">
-        <div class="menu rounded-start-5 bg-success py-4 d-grid justify-content-center gap-4">
+        <div
+          class="menu rounded-start-5 bg-gradient-first-color py-4 d-grid justify-content-center gap-4"
+        >
           <div @click="router.push('madad')" class="menu-item text-center">
             <div>
               <div
