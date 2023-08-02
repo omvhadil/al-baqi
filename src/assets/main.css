@@ -4,18 +4,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@400;500;700&display=swap');
 
 :root{
-  /* 153 hijau */
-  /* 243 biru */
-  /* 300 ungu */
+  /* 1 merah */
+  /* 20 orange */
+  /* 50 kuning */
+  /* 110 hijau */
+  /* 170 biru terang */
+  /* 200 biru */
+  /* 270 ungu */
   /* 1 red */
-  --hue: 153;
-  --first-color: hsl(var(--hue), 69%, 31%);
+  --hue: 270;
+  --first-color: hsl(var(--hue), 90%, 50%);
   --first-color-alt: hsl(var(--hue), 50%, 70%);
   --gradient-first-color: linear-gradient(to bottom, var(--first-color), hsl(var(--hue), 57%, 53%));
   --gradient-first-color-alt: linear-gradient(to right, var(--first-color), hsl(var(--hue), 57%, 53%));
 }
 .bg-first-color{
   background-color: var(--first-color);
+}
+.text-first-color{
+  color: var(--first-color);
 }
 .bg-first-color-alt{
   background-color: var(--first-color-alt);

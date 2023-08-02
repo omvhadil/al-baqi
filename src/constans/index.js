@@ -4,14 +4,14 @@ export const data = [
     slug: 'madad',
     image: '../../src/assets/images/ventor-1.png',
     title: 'Khulasoh',
-    arab: 'الْخُلاَصَةُ',
+    arab: 'خُلاَصَةُ الْمَدَدًا النَّبَوِىًّ',
     latin: 'Khulashotul Madadan Nabawi',
     category: [
       {
         id: 1,
         slug: 'fardhu',
         title: 'Dzikir Setelah Sholat Fardhu',
-        arab: 'ذِكْرٌ بَعْدَ صَلَاةِ الْفَرِيضَةِ',
+        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ وَاجِيبْ',
         latin: 'Dzikir ba’da shalāti al-farīdāti',
         dzikri: [
           {
@@ -97,7 +97,7 @@ export const data = [
         id: 2,
         slug: 'subuh',
         title: 'Dzikir Setelah Sholat Subuh',
-        arab: 'ذِكْرً بَعْدَ صَلاَةِ الصُّبْحِ',
+        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ صُبُوحْ',
         latin: 'Dzikir ba’da shalāti as-subhi',
         dzikri: [
           {
@@ -1444,7 +1444,7 @@ export const data = [
         id: 3,
         slug: 'dzuhur',
         title: 'Dzikir Setelah Sholat Dzuhur',
-        arab: 'ذِكْرً بَعْدَ صَلاَةِ الظُّهْرِ',
+        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ ظُهُورْ',
         latin: 'Dzikir ba’da shalāti ad-dzuhri',
         dzikri: [
           {
@@ -1553,7 +1553,7 @@ export const data = [
         id: 4,
         slug: 'ashar',
         title: 'Dzikir Setelah Sholat Ashar',
-        arab: 'ذِكْرً بَعْدَ صَلاَةِ العَصْرِ',
+        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ عَشَارْ',
         latin: 'Dzikir ba’da shalāti as-syuri',
         dzikri: [
           {
@@ -2338,7 +2338,7 @@ export const data = [
         id: 5,
         slug: 'maghrib',
         title: 'Dzikir Setelah Sholat Maghrib',
-        arab: 'ذِكْرً بَعْدَ صَلاَةِ المَغْرِبِ',
+        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ مَغْرِبْ',
         latin: 'Dzikir ba’da shalāti al-maghribi',
         dzikri: [
           {
@@ -3151,7 +3151,7 @@ export const data = [
         id: 6,
         slug: 'isya',
         title: 'Dzikir Setelah Sholat Isya’',
-        arab: 'ذِكْرً بَعْدَ صَلاَةِ العِشَاءِ',
+        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ عِشَاءْ',
         latin: 'Dzikir ba’da shalāti al-isyā’i',
         dzikri: [
           {
@@ -3366,8 +3366,8 @@ export const data = [
         id: 7,
         slug: 'kahfi',
         title: 'Surat Al-Kahfi',
-        arab: '',
         latin: '',
+        arab: 'سُوْرَةُ الْكَحْفِ',
         dzikri: [
           {
             id: 1,
@@ -4045,8 +4045,8 @@ export const data = [
         id: 8,
         slug: 'dhuha',
         title: 'Niat Sholat Dhuha dan Doa',
-        arab: '',
         latin: '',
+        arab: 'نِيَاتْ دَانْ دُعَاءْ صَلاَةْ ضُحَى',
         dzikri: [
           {
             id: 1,
@@ -4086,8 +4086,8 @@ export const data = [
         id: 9,
         slug: 'tahajjud',
         title: 'Niat Sholat Tahajjud dan Doa',
-        arab: '',
         latin: '',
+        arab: 'نِيَاتْ دَانْ دُعَاءْ صَلاَةْ تَهَجُّدْ',
         dzikri: [
           {
             id: 1,
@@ -4944,7 +4944,7 @@ export const data = [
         id: 2,
         slug: 'tahlil-kubur',
         title: 'Tahlil Kubur',
-        arab: 'تَهْلِيلُ',
+        arab: 'تَهْلِيْلْ قُبُورْ',
         latin: 'Tahlil',
         dzikri: [
           {
@@ -5631,7 +5631,7 @@ export const data = [
         id: 3,
         slug: 'istighosah',
         title: 'Istighosah',
-        arab: '',
+        arab: 'اِسْتِغَاثَه',
         latin: '',
         dzikri: [
           {

@@ -19,14 +19,14 @@ const kitab = data.find((item) => item.slug === kitabId)
           class="d-flex shadow-sm rounded overflow-hidden cursor border"
           style="height: 50px"
         >
+          <div class="d-flex ms-auto align-items-center ps-3">
+            <h6 class="m-0">{{ item.arab }}</h6>
+          </div>
           <div
-            class="d-flex align-items-center justify-content-center bg-first-color-alt text-white"
+            class="ms-3 d-flex align-items-center justify-content-center bg-first-color-alt text-white"
             style="width: 40px"
           >
             <h6 class="m-0">{{ index + 1 }}</h6>
-          </div>
-          <div class="d-flex align-items-center ps-3">
-            <h6 class="m-0">{{ item.title }}</h6>
           </div>
         </div>
       </div>
