@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@400;500;700&display=swap');
 
 :root{
@@ -17,21 +16,50 @@
   --first-color-alt: hsl(var(--hue), 50%, 70%);
   --gradient-first-color: linear-gradient(to bottom, var(--first-color), hsl(var(--hue), 57%, 53%));
   --gradient-first-color-alt: linear-gradient(to right, var(--first-color), hsl(var(--hue), 57%, 53%));
+
+  /* Green  */
+  --color-green: #2dce89;
+  --color-green-alt: #99dec0;
+  --color-green-gradient: linear-gradient(310deg, #2dce89, #2dcecc);
+  /* Red  */
+  --color-red: #f5365c;
+  --color-red-alt: #d48797;
+  --color-red-gradient: linear-gradient(310deg, #f5365c, #f56036);
+  /* Orange  */
+  --color-orange: #fb6340;
+  --color-orange-alt: #d18b7b;
+  --color-orange-gradient: linear-gradient(310deg, #fb6340, #fbb140);
+  /* Blue  */
+  --color-blue: #1171ef;
+  --color-blue-alt: #7397c7;
+  --color-blue-gradient: linear-gradient(310deg, #1171ef, #0eadca);
+  /* Gray  */
+  --color-gray: #636e80;
+  --color-gray-alt: #b0bcd1;
+  --color-gray-gradient: linear-gradient(310deg, #627594, #8ca1cb);
+  /* Purple  */
+  --color-purple: #5e72e4;
+  --color-purple-alt: #828cc4;
+  --color-purple-gradient: linear-gradient(310deg, #5e72e4, #825ee4);
 }
-.bg-first-color{
-  background-color: var(--first-color);
-}
+/* Theme App  */
 .text-first-color{
-  color: var(--first-color);
+  color: var(--color-orange);
 }
 .bg-first-color-alt{
-  background-color: var(--first-color-alt);
+  background-color: var(--color-orange-alt);
 }
 .bg-gradient-first-color{
-  background-image: var(--gradient-first-color);
+  background-image: var(--color-orange-gradient);
 }
 .bg-gradient-first-color-alt{
-  background-image: var(--gradient-first-color-alt);
+  background-image: var(--color-orange-gradient);
+}
+
+
+
+.bg-first-color{
+  background-color: var(--first-color);
 }
 body{
     font-family: 'Scheherazade New', serif !important;
