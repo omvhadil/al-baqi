@@ -1,7 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import { useRouter } from 'vue-router'
-import Toggle from '../components/Toggle.vue'
 import Tawassul from '../components/Tawassul.vue'
 
 const router = useRouter()
@@ -11,7 +10,6 @@ const router = useRouter()
   <header class="header px-3">
     <div class="nav d-flex align-items-center justify-content-end gap-4" style="height: 3.5rem">
       <Tawassul />
-      <Toggle />
     </div>
   </header>
   <!-- end:header  -->
@@ -27,7 +25,7 @@ const router = useRouter()
           >
             الْقَيُّوْمُ
           </h1>
-          <p class="text-first-color" style="font-size: 2rem">مَحَا مَنْدِرِ</p>
+          <p class="text-first-color" style="font-size: 2rem">Maha Mandiri</p>
 
           <div class="mt-5">
             <span class="text-secondary">&#169; Alabim 2023. All right reserved</span>
@@ -54,7 +52,7 @@ const router = useRouter()
                 </svg>
               </div>
             </div>
-            <span class="text-white">الْمَدَد </span>
+            <span class="text-white">Madad</span>
           </div>
           <div @click="router.push('majmu')" class="menu-item text-center">
             <div>
@@ -70,7 +68,7 @@ const router = useRouter()
                 </svg>
               </div>
             </div>
-            <span class="text-white">الْمَجْمُع</span>
+            <span class="text-white">Majmu'</span>
           </div>
           <div @click="router.push('/majmu/tahlil-kubur')" class="menu-item text-center">
             <div>
@@ -86,7 +84,7 @@ const router = useRouter()
                 </svg>
               </div>
             </div>
-            <span class="text-white">التَّهْلِيْل</span>
+            <span class="text-white">Tahlil</span>
           </div>
         </div>
       </div>
@@ -94,49 +92,13 @@ const router = useRouter()
     </div>
   </section>
   <!-- end:content  -->
-  <main class="ps-3 pe-3 mt-4">
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item rounded-4 overflow-hidden active" data-bs-interval="5000">
-          <img
-            src="https://cdn.pixabay.com/photo/2023/07/06/21/35/bjj-8111390_1280.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item rounded-4 overflow-hidden" data-bs-interval="5000">
-          <img
-            src="https://cdn.pixabay.com/photo/2023/07/06/21/35/bjj-8111388_1280.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item rounded-4 overflow-hidden" data-bs-interval="5000">
-          <img
-            src="https://cdn.pixabay.com/photo/2023/07/06/21/35/bjj-8111393_1280.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleInterval"
-        data-bs-slide="prev"
+  <main class="ps-3 pe-3 mt-5">
+    <div class="border border-dark overflow-hidden rounded-2">
+      <h5 class="text-center bg-first-color text-white py-2">Pesan</h5>
+      <span class="text-center d-block p-3 fs-5"
+        >"Lakukanlah kebaikan sekecil apapun, karna engkau tidak akan pernah tau kebaikan mana yang
+        akan memasukkanmu ke dalam SURGA."</span
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleInterval"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
   </main>
 </template>

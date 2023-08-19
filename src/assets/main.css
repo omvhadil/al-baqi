@@ -44,23 +44,25 @@
 }
 /* Theme App  */
 .text-first-color{
-  color: var(--color-orange);
+  color: var(--color-blue);
+}
+.bg-first-color{
+  background-color: var(--color-blue);
+}
+.border-first-color{
+  border-color: var(--color-blue)!important;
 }
 .bg-first-color-alt{
-  background-color: var(--color-orange-alt);
+  background-color: var(--color-blue-alt);
 }
 .bg-gradient-first-color{
-  background-image: var(--color-orange-gradient);
+  background-image: var(--color-blue-gradient);
 }
 .bg-gradient-first-color-alt{
-  background-image: var(--color-orange-gradient);
+  background-image: var(--color-blue-gradient);
 }
 
 
-
-.bg-first-color{
-  background-color: var(--first-color);
-}
 body{
     font-family: 'Scheherazade New', serif !important;
   }
